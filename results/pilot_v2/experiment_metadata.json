@@ -1,0 +1,586 @@
+{
+  "experiment_timestamp_utc": "2026-11-09T15:43:22.371225+00:00",
+  "software_version": "0.1.0",
+  "python_version": "3.14.0",
+  "numpy_version": "2.5.4",
+  "scenario_count": 192,
+  "algorithm_names": [
+    "GN",
+    "LM",
+    "BFGS",
+    "initial_selection_only",
+    "fixed_gn_adaptive",
+    "full_hybrid"
+  ],
+  "configuration": {
+    "scenario_count": 192,
+    "seed": 20261110,
+    "test_fraction": 0.25,
+    "satellite_counts": [
+      4,
+      8
+    ],
+    "noise_stds_m": [
+      0.3,
+      3.0
+    ],
+    "position_perturbations_m": [
+      10.0,
+      500.0
+    ],
+    "clock_bias_perturbation_m": 100.0,
+    "geometry_categories": [
+      "good",
+      "moderate",
+      "poor",
+      "rank_deficient"
+    ],
+    "outlier_rates": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "outlier_magnitude_m": 1000.0,
+    "solver_config": {
+      "max_iterations": 100,
+      "gradient_tolerance": 1e-08,
+      "step_tolerance": 1e-08,
+      "objective_tolerance": 1e-12,
+      "rank_rcond": 1e-12,
+      "lm_initial_damping": 0.001,
+      "lm_acceptance_threshold": 0.0001,
+      "lm_damping_increase": 2.0,
+      "lm_damping_decrease_factor": 0.3333333333333333,
+      "line_search_contraction": 0.5,
+      "line_search_armijo": 0.0001,
+      "line_search_min_step": 1e-12
+    },
+    "hybrid_config": {
+      "solver_config": {
+        "max_iterations": 100,
+        "gradient_tolerance": 1e-08,
+        "step_tolerance": 1e-08,
+        "objective_tolerance": 1e-12,
+        "rank_rcond": 1e-12,
+        "lm_initial_damping": 0.001,
+        "lm_acceptance_threshold": 0.0001,
+        "lm_damping_increase": 2.0,
+        "lm_damping_decrease_factor": 0.3333333333333333,
+        "line_search_contraction": 0.5,
+        "line_search_armijo": 0.0001,
+        "line_search_min_step": 1e-12
+      },
+      "selection_config": {
+        "condition_number_threshold": 100000000.0
+      },
+      "max_total_iterations": 300,
+      "max_transitions": 2,
+      "stage_iteration_budget": 100,
+      "consecutive_failure_threshold": 2,
+      "consecutive_stagnation_threshold": 3,
+      "objective_progress_tolerance": 1e-12,
+      "enable_bfgs_fallback": true,
+      "rank_tolerance": 1e-12,
+      "initial_solver_override": null
+    },
+    "require_both_splits": true
+  },
+  "timing_method": "No warm-up runs. Outer execution_time_seconds uses perf_counter around each algorithm invocation, including selection/orchestration overhead but excluding scenario generation and file I/O. Stage CSV times are solver-reported times.",
+  "dataset_split": "Largest-remainder proportional test allocation by parameter stratum; seeded permutation breaks equal-remainder ties and selects members within strata",
+  "split_counts": {
+    "development": 144,
+    "test": 48
+  },
+  "split_warning": null,
+  "split_coverage": {
+    "development": {
+      "scenario_count": 144,
+      "observed_parameter_combinations": 96,
+      "total_parameter_combinations": 96,
+      "missing_parameter_combinations": [],
+      "represented_all_combinations": true,
+      "factor_coverage": {
+        "satellite_count": {
+          "configured_values": [
+            4,
+            8
+          ],
+          "observed_values": [
+            4,
+            8
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "noise_std_m": {
+          "configured_values": [
+            0.3,
+            3.0
+          ],
+          "observed_values": [
+            0.3,
+            3.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "initial_perturbation_m": {
+          "configured_values": [
+            10.0,
+            500.0
+          ],
+          "observed_values": [
+            10.0,
+            500.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "geometry_category": {
+          "configured_values": [
+            "good",
+            "moderate",
+            "poor",
+            "rank_deficient"
+          ],
+          "observed_values": [
+            "good",
+            "moderate",
+            "poor",
+            "rank_deficient"
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "outlier_rate": {
+          "configured_values": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "observed_values": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        }
+      }
+    },
+    "test": {
+      "scenario_count": 48,
+      "observed_parameter_combinations": 48,
+      "total_parameter_combinations": 96,
+      "missing_parameter_combinations": [
+        [
+          4,
+          0.3,
+          10.0,
+          "good",
+          0.0
+        ],
+        [
+          4,
+          0.3,
+          10.0,
+          "poor",
+          0.0
+        ],
+        [
+          4,
+          0.3,
+          10.0,
+          "poor",
+          0.5
+        ],
+        [
+          4,
+          0.3,
+          10.0,
+          "rank_deficient",
+          0.0
+        ],
+        [
+          4,
+          0.3,
+          10.0,
+          "rank_deficient",
+          0.5
+        ],
+        [
+          4,
+          0.3,
+          10.0,
+          "rank_deficient",
+          1.0
+        ],
+        [
+          4,
+          0.3,
+          500.0,
+          "moderate",
+          0.5
+        ],
+        [
+          4,
+          0.3,
+          500.0,
+          "poor",
+          0.5
+        ],
+        [
+          4,
+          0.3,
+          500.0,
+          "poor",
+          1.0
+        ],
+        [
+          4,
+          0.3,
+          500.0,
+          "rank_deficient",
+          1.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "good",
+          0.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "good",
+          1.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "moderate",
+          0.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "poor",
+          0.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "poor",
+          0.5
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "poor",
+          1.0
+        ],
+        [
+          4,
+          3.0,
+          10.0,
+          "rank_deficient",
+          0.5
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "good",
+          1.0
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "moderate",
+          0.5
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "poor",
+          0.0
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "poor",
+          0.5
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "poor",
+          1.0
+        ],
+        [
+          4,
+          3.0,
+          500.0,
+          "rank_deficient",
+          1.0
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "good",
+          0.5
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "good",
+          1.0
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "poor",
+          0.0
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "poor",
+          0.5
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "poor",
+          1.0
+        ],
+        [
+          8,
+          0.3,
+          10.0,
+          "rank_deficient",
+          0.0
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "good",
+          0.0
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "moderate",
+          0.0
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "moderate",
+          1.0
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "poor",
+          0.0
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "poor",
+          0.5
+        ],
+        [
+          8,
+          0.3,
+          500.0,
+          "rank_deficient",
+          0.5
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "good",
+          0.0
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "good",
+          1.0
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "moderate",
+          1.0
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "poor",
+          0.5
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "rank_deficient",
+          0.5
+        ],
+        [
+          8,
+          3.0,
+          10.0,
+          "rank_deficient",
+          1.0
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "good",
+          0.5
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "good",
+          1.0
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "moderate",
+          0.0
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "poor",
+          0.0
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "poor",
+          0.5
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "poor",
+          1.0
+        ],
+        [
+          8,
+          3.0,
+          500.0,
+          "rank_deficient",
+          0.5
+        ]
+      ],
+      "represented_all_combinations": false,
+      "factor_coverage": {
+        "satellite_count": {
+          "configured_values": [
+            4,
+            8
+          ],
+          "observed_values": [
+            4,
+            8
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "noise_std_m": {
+          "configured_values": [
+            0.3,
+            3.0
+          ],
+          "observed_values": [
+            0.3,
+            3.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "initial_perturbation_m": {
+          "configured_values": [
+            10.0,
+            500.0
+          ],
+          "observed_values": [
+            10.0,
+            500.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "geometry_category": {
+          "configured_values": [
+            "good",
+            "moderate",
+            "poor",
+            "rank_deficient"
+          ],
+          "observed_values": [
+            "good",
+            "moderate",
+            "poor",
+            "rank_deficient"
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        },
+        "outlier_rate": {
+          "configured_values": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "observed_values": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "missing_configured_values": [],
+          "represented_all_configured_values": true
+        }
+      }
+    },
+    "limitation": "Full-combination coverage is only claimed when every combination is present in the split; small scenario counts may cover only a subset. Factor coverage is reported independently."
+  },
+  "synthetic_model_note": "Satellite directions are synthetic local ENU rays, not orbital ephemerides"
+}

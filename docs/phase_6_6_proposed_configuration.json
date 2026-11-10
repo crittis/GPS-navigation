@@ -1,0 +1,39 @@
+{
+  "proposal_status": "pending_review_fit_thresholds_unresolved",
+  "source_api": "gps_hybrid.solution_validity.SolutionValidityConfig",
+  "validity_policy": {
+    "operating_domain": {
+      "name": "terrestrial",
+      "minimum_altitude_m": -1000.0,
+      "maximum_altitude_m": 100000.0,
+      "allow_unrestricted_domain_waiver": false,
+      "scope": "temporary screening profile for this synthetic benchmark only"
+    },
+    "max_residual_rms_m": null,
+    "max_absolute_residual_m": null,
+    "condition_number_threshold": 1000000.0,
+    "rank_tolerance": 1e-12
+  },
+  "decision_notes": {
+    "fit_thresholds": "Unresolved; null means no acceptance threshold is proposed, not a zero limit or a pass.",
+    "condition_number_threshold": "Proposed engineering screening cutoff; not a universal constant and separate from solver selection.",
+    "unrestricted_ecef": "No waiver is enabled.",
+    "freeze_ready": false,
+    "held_out_results_used": false
+  },
+  "development_data_provenance_only": {
+    "dataset": "results/pilot_v2",
+    "analysis_split": "development",
+    "scenario_count_configured": 192,
+    "seed": 20261110,
+    "test_fraction_configured": 0.25,
+    "satellite_counts": [4, 8],
+    "noise_stds_m": [0.3, 3.0],
+    "position_perturbations_m": [10.0, 500.0],
+    "geometry_categories": ["good", "moderate", "poor", "rank_deficient"],
+    "outlier_rates": [0.0, 0.5, 1.0],
+    "clock_bias_perturbation_m": 100.0,
+    "outlier_magnitude_m": 1000.0,
+    "note": "These values describe the existing pilot provenance only; this artifact does not request scenario regeneration or repartitioning."
+  }
+}

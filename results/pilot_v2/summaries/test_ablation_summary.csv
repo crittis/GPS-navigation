@@ -1,0 +1,4 @@
+left_algorithm,right_algorithm,available_pairs,position_error_m_difference_available_pairs,position_error_m_difference_mean,position_error_m_difference_median,execution_time_seconds_difference_available_pairs,execution_time_seconds_difference_mean,execution_time_seconds_difference_median,convergence_outcome_difference_available_pairs,convergence_outcome_difference_mean
+GN,fixed_gn_adaptive,48,48,0.0,0.0,48,-0.0004472166668468465,-0.0003312999615445733,48,0.0
+initial_selection_only,full_hybrid,48,35,-58355.93867366408,0.0,48,-0.0011696583327041783,-0.0002781000512186438,48,0.0
+fixed_gn_adaptive,full_hybrid,48,48,62065975.81750244,0.0,48,-0.0011639958320301957,6.304998532868922e-05,48,0.0
