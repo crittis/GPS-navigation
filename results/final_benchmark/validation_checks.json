@@ -1,0 +1,430 @@
+{
+  "scenario_count": 192,
+  "split_sizes": {
+    "development": 144,
+    "test": 48
+  },
+  "unique_scenario_ids_by_split": {
+    "development": true,
+    "test": true
+  },
+  "no_split_leakage": true,
+  "run_rows": 1152,
+  "algorithm_coverage": {
+    "GN": 192,
+    "LM": 192,
+    "BFGS": 192,
+    "initial_selection_only": 192,
+    "fixed_gn_adaptive": 192,
+    "full_hybrid": 192
+  },
+  "six_rows_per_scenario": true,
+  "unique_scenario_algorithm_pairs": true,
+  "run_ids_match_manifest": true,
+  "seed_sequence_correct": true,
+  "combination_count": 96,
+  "development_all_combinations": true,
+  "test_all_combinations": false,
+  "factor_coverage_each_split": {
+    "development": {
+      "satellite_count": {
+        "configured_values": [
+          4,
+          8
+        ],
+        "observed_values": [
+          4,
+          8
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "noise_std_m": {
+        "configured_values": [
+          0.3,
+          3.0
+        ],
+        "observed_values": [
+          0.3,
+          3.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "initial_perturbation_m": {
+        "configured_values": [
+          10.0,
+          500.0
+        ],
+        "observed_values": [
+          10.0,
+          500.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "geometry_category": {
+        "configured_values": [
+          "good",
+          "moderate",
+          "poor",
+          "rank_deficient"
+        ],
+        "observed_values": [
+          "good",
+          "moderate",
+          "poor",
+          "rank_deficient"
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "outlier_rate": {
+        "configured_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "observed_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      }
+    },
+    "test": {
+      "satellite_count": {
+        "configured_values": [
+          4,
+          8
+        ],
+        "observed_values": [
+          4,
+          8
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "noise_std_m": {
+        "configured_values": [
+          0.3,
+          3.0
+        ],
+        "observed_values": [
+          0.3,
+          3.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "initial_perturbation_m": {
+        "configured_values": [
+          10.0,
+          500.0
+        ],
+        "observed_values": [
+          10.0,
+          500.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "geometry_category": {
+        "configured_values": [
+          "good",
+          "moderate",
+          "poor",
+          "rank_deficient"
+        ],
+        "observed_values": [
+          "good",
+          "moderate",
+          "poor",
+          "rank_deficient"
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      },
+      "outlier_rate": {
+        "configured_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "observed_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "missing_configured_values": [],
+        "represented_all_configured_values": true
+      }
+    }
+  },
+  "null_fit_thresholds_remain_not_evaluated": true,
+  "accounting_by_algorithm": {
+    "GN": {
+      "N_all": 48,
+      "N_converged": 33,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 1,
+      "N_numerical_failure": 0
+    },
+    "LM": {
+      "N_all": 48,
+      "N_converged": 31,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 4,
+      "N_numerical_failure": 2
+    },
+    "BFGS": {
+      "N_all": 48,
+      "N_converged": 33,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 2,
+      "N_numerical_failure": 0
+    },
+    "initial_selection_only": {
+      "N_all": 48,
+      "N_converged": 33,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 2,
+      "N_numerical_failure": 0
+    },
+    "fixed_gn_adaptive": {
+      "N_all": 48,
+      "N_converged": 33,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 1,
+      "N_numerical_failure": 0
+    },
+    "full_hybrid": {
+      "N_all": 48,
+      "N_converged": 33,
+      "N_complete": 0,
+      "N_valid": 0,
+      "N_invalid": 0,
+      "N_incomplete": 48,
+      "identity": true,
+      "N_failure": 2,
+      "N_numerical_failure": 0
+    }
+  },
+  "metrics": {
+    "position_error_m": {
+      "missing": 48,
+      "nonfinite": 0
+    },
+    "residual_rms_m": {
+      "missing": 48,
+      "nonfinite": 0
+    },
+    "execution_time_seconds": {
+      "missing": 0,
+      "nonfinite": 0
+    },
+    "iterations": {
+      "missing": 0,
+      "nonfinite": 0
+    },
+    "validity_max_absolute_residual_m": {
+      "missing": 48,
+      "nonfinite": 0
+    },
+    "validity_final_condition_number": {
+      "missing": 332,
+      "nonfinite": 0
+    }
+  },
+  "head": "ffa0a845f094de70ad4ba7ab5031e1ff6d1a756f",
+  "git_status": "?? results/final_benchmark/",
+  "test_metrics_by_algorithm": {
+    "GN": {
+      "position_error_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "residual_rms_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 48,
+        "missing": 0
+      }
+    },
+    "LM": {
+      "position_error_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "residual_rms_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 48,
+        "missing": 0
+      }
+    },
+    "BFGS": {
+      "position_error_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "residual_rms_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 48,
+        "missing": 0
+      }
+    },
+    "initial_selection_only": {
+      "position_error_m": {
+        "available": 35,
+        "missing": 13
+      },
+      "residual_rms_m": {
+        "available": 35,
+        "missing": 13
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 35,
+        "missing": 13
+      }
+    },
+    "fixed_gn_adaptive": {
+      "position_error_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "residual_rms_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 48,
+        "missing": 0
+      }
+    },
+    "full_hybrid": {
+      "position_error_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "residual_rms_m": {
+        "available": 48,
+        "missing": 0
+      },
+      "execution_time_seconds": {
+        "available": 48,
+        "missing": 0
+      },
+      "iterations": {
+        "available": 48,
+        "missing": 0
+      },
+      "validity_max_absolute_residual_m": {
+        "available": 48,
+        "missing": 0
+      }
+    }
+  },
+  "test_numerical_status_counts": {
+    "GN": {
+      "converged": 33,
+      "rank_deficient": 14,
+      "line_search_failed": 1
+    },
+    "LM": {
+      "converged": 31,
+      "rank_deficient": 13,
+      "numerical_failure": 2,
+      "max_iterations": 2
+    },
+    "BFGS": {
+      "converged": 33,
+      "rank_deficient": 13,
+      "max_iterations": 2
+    },
+    "initial_selection_only": {
+      "converged": 33,
+      "unobservable": 13,
+      "max_iterations": 2
+    },
+    "fixed_gn_adaptive": {
+      "converged": 33,
+      "unobservable_geometry": 14,
+      "line_search_failed": 1
+    },
+    "full_hybrid": {
+      "converged": 33,
+      "unobservable_geometry": 13,
+      "max_iterations": 2
+    }
+  }
+}

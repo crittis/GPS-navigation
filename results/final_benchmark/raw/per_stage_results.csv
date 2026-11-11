@@ -1,0 +1,1036 @@
+scenario_id,algorithm,stage_index,solver_name,status,iterations,function_evaluations,execution_time_seconds,rejected_steps,failure_reason
+scenario-00000,GN,1,GN,converged,2,3,0.001061100047081709,0,
+scenario-00000,LM,1,LM,converged,4,5,0.0015667000552639365,0,
+scenario-00000,BFGS,1,BFGS,converged,8,11,0.001944500021636486,0,
+scenario-00000,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004195999354124069,0,
+scenario-00000,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003875000402331352,0,
+scenario-00000,full_hybrid,1,Gauss-Newton,converged,2,3,0.00040609994903206825,0,
+scenario-00001,GN,1,GN,converged,2,3,0.0003602999495342374,0,
+scenario-00001,LM,1,LM,converged,4,5,0.0011802000226452947,0,
+scenario-00001,BFGS,1,BFGS,converged,11,13,0.002420300035737455,0,
+scenario-00001,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00042290007695555687,0,
+scenario-00001,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0012440999271348119,0,
+scenario-00001,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006886000046506524,0,
+scenario-00002,GN,1,GN,converged,2,3,0.0007755999686196446,0,
+scenario-00002,LM,1,LM,converged,4,5,0.0015508000506088138,0,
+scenario-00002,BFGS,1,BFGS,converged,11,13,0.0018051000079140067,0,
+scenario-00002,initial_selection_only,1,Gauss-Newton,converged,2,3,0.000395399983972311,0,
+scenario-00002,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003646999830380082,0,
+scenario-00002,full_hybrid,1,Gauss-Newton,converged,2,3,0.000750000006519258,0,
+scenario-00003,GN,1,GN,converged,2,3,0.0006536000873893499,0,
+scenario-00003,LM,1,LM,converged,16,17,0.006007399992085993,0,
+scenario-00003,BFGS,1,BFGS,converged,31,34,0.004720899974927306,0,
+scenario-00003,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0005105000454932451,0,
+scenario-00003,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00042099994607269764,0,
+scenario-00003,full_hybrid,1,Gauss-Newton,converged,2,3,0.0005043999990448356,0,
+scenario-00004,GN,1,GN,converged,4,5,0.0007955000037327409,0,
+scenario-00004,LM,1,LM,converged,16,17,0.007806799956597388,0,
+scenario-00004,BFGS,1,BFGS,converged,45,48,0.009947199956513941,0,
+scenario-00004,initial_selection_only,1,Gauss-Newton,converged,4,5,0.001424000016413629,0,
+scenario-00004,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0008635000558570027,0,
+scenario-00004,full_hybrid,1,Gauss-Newton,converged,4,5,0.0006847999757155776,0,
+scenario-00005,GN,1,GN,converged,4,5,0.0006951000541448593,0,
+scenario-00005,LM,1,LM,converged,16,17,0.004609700059518218,0,
+scenario-00005,BFGS,1,BFGS,converged,44,47,0.008886500028893352,0,
+scenario-00005,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0007291999645531178,0,
+scenario-00005,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006840999703854322,0,
+scenario-00005,full_hybrid,1,Gauss-Newton,converged,4,5,0.0008289999095723033,0,
+scenario-00006,GN,1,GN,converged,4,5,0.0006776000373065472,0,
+scenario-00006,LM,1,LM,converged,17,18,0.004190200008451939,0,
+scenario-00006,BFGS,1,BFGS,converged,38,43,0.00921549997292459,0,
+scenario-00006,initial_selection_only,1,Levenberg-Marquardt,converged,17,18,0.006473700050264597,0,
+scenario-00006,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.000965300016105175,0,
+scenario-00006,full_hybrid,1,Levenberg-Marquardt,converged,17,18,0.0045356000773608685,0,
+scenario-00007,GN,1,GN,converged,9,38,0.002064500004053116,0,
+scenario-00007,LM,1,LM,converged,3,4,0.000929499976336956,0,
+scenario-00007,BFGS,1,BFGS,converged,2,6,0.0005189999938011169,0,
+scenario-00007,initial_selection_only,1,Levenberg-Marquardt,converged,3,4,0.0008815999608486891,0,
+scenario-00007,fixed_gn_adaptive,1,Gauss-Newton,converged,9,38,0.0019038999453186989,0,
+scenario-00007,full_hybrid,1,Levenberg-Marquardt,converged,3,4,0.0019990999717265368,0,
+scenario-00008,GN,1,GN,converged,8,42,0.0030599000165238976,0,
+scenario-00008,LM,1,LM,converged,3,4,0.0009731999598443508,0,
+scenario-00008,BFGS,1,BFGS,converged,1,5,0.0003372000064700842,0,
+scenario-00008,initial_selection_only,1,Levenberg-Marquardt,converged,3,4,0.0009240999352186918,0,
+scenario-00008,fixed_gn_adaptive,1,Gauss-Newton,converged,8,42,0.0019043999491259456,0,
+scenario-00008,full_hybrid,1,Levenberg-Marquardt,converged,3,4,0.0009379999246448278,0,
+scenario-00009,GN,1,GN,rank_deficient,0,1,0.00010579999070614576,0,Jacobian rank is 1; four independent state directions are required
+scenario-00009,LM,1,LM,rank_deficient,0,1,9.009998757392168e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00009,BFGS,1,BFGS,rank_deficient,0,1,7.509998977184296e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00010,GN,1,GN,rank_deficient,0,1,0.00020359992049634457,0,Jacobian rank is 1; four independent state directions are required
+scenario-00010,LM,1,LM,rank_deficient,0,1,0.00018590001855045557,0,Jacobian rank is 1; four independent state directions are required
+scenario-00010,BFGS,1,BFGS,rank_deficient,0,1,0.00015630002599209547,0,Jacobian rank is 1; four independent state directions are required
+scenario-00011,GN,1,GN,rank_deficient,0,1,0.0001265000319108367,0,Jacobian rank is 1; four independent state directions are required
+scenario-00011,LM,1,LM,rank_deficient,0,1,0.00013299996498972178,0,Jacobian rank is 1; four independent state directions are required
+scenario-00011,BFGS,1,BFGS,rank_deficient,0,1,8.120003622025251e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00012,GN,1,GN,converged,2,3,0.0004461000207811594,0,
+scenario-00012,LM,1,LM,converged,4,5,0.001622700016014278,0,
+scenario-00012,BFGS,1,BFGS,converged,9,12,0.0015174999134615064,0,
+scenario-00012,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039309996645897627,0,
+scenario-00012,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038350000977516174,0,
+scenario-00012,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039570010267198086,0,
+scenario-00013,GN,1,GN,converged,2,3,0.0003632999723777175,0,
+scenario-00013,LM,1,LM,converged,4,5,0.0011745999800041318,0,
+scenario-00013,BFGS,1,BFGS,converged,11,13,0.0034332999493926764,0,
+scenario-00013,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006393999792635441,0,
+scenario-00013,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0007538000354543328,0,
+scenario-00013,full_hybrid,1,Gauss-Newton,converged,2,3,0.00043730007018893957,0,
+scenario-00014,GN,1,GN,converged,2,3,0.00036780000664293766,0,
+scenario-00014,LM,1,LM,converged,4,5,0.0012390000047162175,0,
+scenario-00014,BFGS,1,BFGS,converged,10,12,0.0016493001021444798,0,
+scenario-00014,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004016000311821699,0,
+scenario-00014,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003834000090137124,0,
+scenario-00014,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039240007754415274,0,
+scenario-00015,GN,1,GN,converged,2,3,0.00039770000148564577,0,
+scenario-00015,LM,1,LM,converged,15,16,0.005793599993921816,0,
+scenario-00015,BFGS,1,BFGS,converged,35,38,0.006213400047272444,0,
+scenario-00015,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00043350004125386477,0,
+scenario-00015,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00044730002991855145,0,
+scenario-00015,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038549990858882666,0,
+scenario-00016,GN,1,GN,converged,2,3,0.00037510006222873926,0,
+scenario-00016,LM,1,LM,converged,16,17,0.007137499982491136,0,
+scenario-00016,BFGS,1,BFGS,converged,32,35,0.004972500028088689,0,
+scenario-00016,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003747999435290694,0,
+scenario-00016,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038270000368356705,0,
+scenario-00016,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003605999518185854,0,
+scenario-00017,GN,1,GN,converged,2,3,0.0003757999511435628,0,
+scenario-00017,LM,1,LM,converged,15,16,0.005892600049264729,0,
+scenario-00017,BFGS,1,BFGS,converged,43,46,0.006480099982582033,0,
+scenario-00017,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004317000275477767,0,
+scenario-00017,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038400001358240843,0,
+scenario-00017,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039060006383806467,0,
+scenario-00018,GN,1,GN,converged,5,6,0.0008086999878287315,0,
+scenario-00018,LM,1,LM,converged,17,18,0.006357799982652068,0,
+scenario-00018,BFGS,1,BFGS,converged,45,53,0.00683460000436753,0,
+scenario-00018,initial_selection_only,1,Levenberg-Marquardt,converged,17,18,0.008475400041788816,0,
+scenario-00018,fixed_gn_adaptive,1,Gauss-Newton,converged,5,6,0.000888700014911592,0,
+scenario-00018,full_hybrid,1,Levenberg-Marquardt,converged,17,18,0.00425799994263798,0,
+scenario-00019,GN,1,GN,converged,20,116,0.008934299927204847,0,
+scenario-00019,LM,1,LM,max_iterations,100,101,0.03107819997239858,0,Maximum iteration count reached
+scenario-00019,BFGS,1,BFGS,max_iterations,100,150,0.018790500005707145,0,Maximum iteration count reached
+scenario-00019,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.029606499942019582,0,Maximum iteration count reached
+scenario-00019,fixed_gn_adaptive,1,Gauss-Newton,converged,20,116,0.005268199951387942,0,
+scenario-00019,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.030736199929378927,0,Maximum iteration count reached
+scenario-00019,full_hybrid,2,BFGS,max_iterations,100,156,0.0183070000493899,0,Maximum iteration count reached
+scenario-00020,GN,1,GN,rank_deficient,1,3,0.00024279998615384102,0,Jacobian became rank deficient
+scenario-00020,LM,1,LM,max_iterations,100,101,0.029306499985978007,0,Maximum iteration count reached
+scenario-00020,BFGS,1,BFGS,max_iterations,100,157,0.02019839989952743,0,Maximum iteration count reached
+scenario-00020,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.027777399984188378,0,Maximum iteration count reached
+scenario-00020,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,1,3,0.00034440006129443645,0,Jacobian became rank deficient
+scenario-00020,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.03169570001773536,0,Maximum iteration count reached
+scenario-00020,full_hybrid,2,BFGS,max_iterations,100,140,0.02185669995378703,0,Maximum iteration count reached
+scenario-00021,GN,1,GN,rank_deficient,0,1,0.00010869989637285471,0,Jacobian rank is 1; four independent state directions are required
+scenario-00021,LM,1,LM,rank_deficient,0,1,0.00010389997623860836,0,Jacobian rank is 1; four independent state directions are required
+scenario-00021,BFGS,1,BFGS,rank_deficient,0,1,7.539999205619097e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00022,GN,1,GN,rank_deficient,0,1,7.509998977184296e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00022,LM,1,LM,rank_deficient,0,1,8.459994569420815e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00022,BFGS,1,BFGS,rank_deficient,0,1,7.459998596459627e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00023,GN,1,GN,rank_deficient,0,1,7.369997911155224e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00023,LM,1,LM,rank_deficient,0,1,8.680007886141539e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00023,BFGS,1,BFGS,rank_deficient,0,1,7.339997682720423e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00024,GN,1,GN,converged,2,3,0.0005805999971926212,0,
+scenario-00024,LM,1,LM,converged,4,5,0.0011905999854207039,0,
+scenario-00024,BFGS,1,BFGS,converged,7,10,0.001182100037112832,0,
+scenario-00024,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003704000264406204,0,
+scenario-00024,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003730999305844307,0,
+scenario-00024,full_hybrid,1,Gauss-Newton,converged,2,3,0.001588399987667799,0,
+scenario-00025,GN,1,GN,converged,2,3,0.0007229000329971313,0,
+scenario-00025,LM,1,LM,converged,4,5,0.0018262999365106225,0,
+scenario-00025,BFGS,1,BFGS,converged,9,11,0.0014702999033033848,0,
+scenario-00025,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00038330000825226307,0,
+scenario-00025,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0008221000898629427,0,
+scenario-00025,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038819992914795876,0,
+scenario-00026,GN,1,GN,converged,2,3,0.0003589000552892685,0,
+scenario-00026,LM,1,LM,converged,4,5,0.0011697999434545636,0,
+scenario-00026,BFGS,1,BFGS,converged,8,11,0.0013228000607341528,0,
+scenario-00026,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003847000189125538,0,
+scenario-00026,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00036069995258003473,0,
+scenario-00026,full_hybrid,1,Gauss-Newton,converged,2,3,0.0008854999905452132,0,
+scenario-00027,GN,1,GN,converged,2,3,0.0006136000156402588,0,
+scenario-00027,LM,1,LM,converged,16,17,0.004801300005055964,0,
+scenario-00027,BFGS,1,BFGS,converged,31,34,0.007334600086323917,0,
+scenario-00027,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0005495999939739704,0,
+scenario-00027,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0005686000222340226,0,
+scenario-00027,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038049998693168163,0,
+scenario-00028,GN,1,GN,converged,5,6,0.0008292000275105238,0,
+scenario-00028,LM,1,LM,converged,16,17,0.004523799987509847,0,
+scenario-00028,BFGS,1,BFGS,converged,48,51,0.009318499942310154,0,
+scenario-00028,initial_selection_only,1,Gauss-Newton,converged,5,6,0.0015402000863105059,0,
+scenario-00028,fixed_gn_adaptive,1,Gauss-Newton,converged,5,6,0.0008410000009462237,0,
+scenario-00028,full_hybrid,1,Gauss-Newton,converged,5,6,0.000811500009149313,0,
+scenario-00029,GN,1,GN,converged,3,4,0.0005272000562399626,0,
+scenario-00029,LM,1,LM,converged,15,16,0.0037949999095872045,0,
+scenario-00029,BFGS,1,BFGS,converged,46,49,0.009126399992965162,0,
+scenario-00029,initial_selection_only,1,Gauss-Newton,converged,3,4,0.0005472000921145082,0,
+scenario-00029,fixed_gn_adaptive,1,Gauss-Newton,converged,3,4,0.0004938999190926552,0,
+scenario-00029,full_hybrid,1,Gauss-Newton,converged,3,4,0.0005028999876230955,0,
+scenario-00030,GN,1,GN,converged,6,9,0.0009313999908044934,0,
+scenario-00030,LM,1,LM,converged,18,19,0.005965599906630814,0,
+scenario-00030,BFGS,1,BFGS,converged,47,65,0.008164200000464916,0,
+scenario-00030,initial_selection_only,1,Levenberg-Marquardt,converged,18,19,0.004360499908216298,0,
+scenario-00030,fixed_gn_adaptive,1,Gauss-Newton,converged,6,9,0.0022657999070361257,0,
+scenario-00030,full_hybrid,1,Levenberg-Marquardt,converged,18,19,0.004664900014176965,0,
+scenario-00031,GN,1,GN,converged,6,7,0.000952000031247735,0,
+scenario-00031,LM,1,LM,converged,23,24,0.0071986999828368425,0,
+scenario-00031,BFGS,1,BFGS,converged,56,66,0.009864900028333068,0,
+scenario-00031,initial_selection_only,1,Levenberg-Marquardt,converged,23,24,0.008606199990026653,0,
+scenario-00031,fixed_gn_adaptive,1,Gauss-Newton,converged,6,7,0.001025900011882186,0,
+scenario-00031,full_hybrid,1,Levenberg-Marquardt,converged,23,24,0.00558270001783967,0,
+scenario-00032,GN,1,GN,rank_deficient,2,3,0.000367300002835691,0,Jacobian became rank deficient
+scenario-00032,LM,1,LM,converged,20,21,0.007751099998131394,0,
+scenario-00032,BFGS,1,BFGS,converged,57,69,0.008929800009354949,0,
+scenario-00032,initial_selection_only,1,Levenberg-Marquardt,converged,20,21,0.005885499995201826,0,
+scenario-00032,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,2,3,0.00036339997313916683,0,Jacobian became rank deficient
+scenario-00032,full_hybrid,1,Levenberg-Marquardt,converged,20,21,0.005053700064308941,0,
+scenario-00033,GN,1,GN,rank_deficient,0,1,8.969998452812433e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00033,LM,1,LM,rank_deficient,0,1,9.220000356435776e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00033,BFGS,1,BFGS,rank_deficient,0,1,8.770008571445942e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00034,GN,1,GN,rank_deficient,0,1,0.00019230006728321314,0,Jacobian rank is 1; four independent state directions are required
+scenario-00034,LM,1,LM,rank_deficient,0,1,0.00018669990822672844,0,Jacobian rank is 1; four independent state directions are required
+scenario-00034,BFGS,1,BFGS,rank_deficient,0,1,0.00017260003369301558,0,Jacobian rank is 1; four independent state directions are required
+scenario-00035,GN,1,GN,rank_deficient,0,1,0.0001265000319108367,0,Jacobian rank is 1; four independent state directions are required
+scenario-00035,LM,1,LM,rank_deficient,0,1,0.0001458000624552369,0,Jacobian rank is 1; four independent state directions are required
+scenario-00035,BFGS,1,BFGS,rank_deficient,0,1,0.0001694000093266368,0,Jacobian rank is 1; four independent state directions are required
+scenario-00036,GN,1,GN,converged,2,3,0.00044299999717622995,0,
+scenario-00036,LM,1,LM,converged,4,5,0.001157199963927269,0,
+scenario-00036,BFGS,1,BFGS,converged,9,12,0.0014903000555932522,0,
+scenario-00036,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00036669999826699495,0,
+scenario-00036,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003749999450519681,0,
+scenario-00036,full_hybrid,1,Gauss-Newton,converged,2,3,0.000367300002835691,0,
+scenario-00037,GN,1,GN,converged,2,3,0.000354900024831295,0,
+scenario-00037,LM,1,LM,converged,4,5,0.0015420999843627214,0,
+scenario-00037,BFGS,1,BFGS,converged,8,11,0.0013377000577747822,0,
+scenario-00037,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0017355000600218773,0,
+scenario-00037,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006670999573543668,0,
+scenario-00037,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004365999484434724,0,
+scenario-00038,GN,1,GN,converged,2,3,0.00038759992457926273,0,
+scenario-00038,LM,1,LM,converged,4,5,0.0011751999845728278,0,
+scenario-00038,BFGS,1,BFGS,converged,8,11,0.001361900009214878,0,
+scenario-00038,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00041459989733994007,0,
+scenario-00038,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00035969994496554136,0,
+scenario-00038,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003722000401467085,0,
+scenario-00039,GN,1,GN,converged,2,3,0.0003684000112116337,0,
+scenario-00039,LM,1,LM,converged,17,18,0.007617500028572977,0,
+scenario-00039,BFGS,1,BFGS,converged,36,39,0.006105099921114743,0,
+scenario-00039,initial_selection_only,1,Gauss-Newton,converged,2,3,0.000394199974834919,0,
+scenario-00039,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0005588999483734369,0,
+scenario-00039,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003989000106230378,0,
+scenario-00040,GN,1,GN,converged,4,5,0.0006415999960154295,0,
+scenario-00040,LM,1,LM,converged,16,17,0.007299700053408742,0,
+scenario-00040,BFGS,1,BFGS,converged,46,49,0.007571200025267899,0,
+scenario-00040,initial_selection_only,1,Gauss-Newton,converged,4,5,0.000673400005325675,0,
+scenario-00040,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.001523100072517991,0,
+scenario-00040,full_hybrid,1,Gauss-Newton,converged,4,5,0.0009753999765962362,0,
+scenario-00041,GN,1,GN,converged,3,4,0.0005164999747648835,0,
+scenario-00041,LM,1,LM,converged,15,16,0.0036911999341100454,0,
+scenario-00041,BFGS,1,BFGS,converged,44,47,0.0068712999345734715,0,
+scenario-00041,initial_selection_only,1,Gauss-Newton,converged,3,4,0.0016273000510409474,0,
+scenario-00041,fixed_gn_adaptive,1,Gauss-Newton,converged,3,4,0.000708600040525198,0,
+scenario-00041,full_hybrid,1,Gauss-Newton,converged,3,4,0.0005676000146195292,0,
+scenario-00042,GN,1,GN,rank_deficient,2,3,0.0004067999543622136,0,Jacobian became rank deficient
+scenario-00042,LM,1,LM,converged,22,23,0.006906500086188316,0,
+scenario-00042,BFGS,1,BFGS,converged,79,91,0.016230099950917065,0,
+scenario-00042,initial_selection_only,1,Levenberg-Marquardt,converged,22,23,0.008206899976357818,0,
+scenario-00042,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,2,3,0.0003525000065565109,0,Jacobian became rank deficient
+scenario-00042,full_hybrid,1,Levenberg-Marquardt,converged,22,23,0.005317300092428923,0,
+scenario-00043,GN,1,GN,max_iterations,100,1096,0.04951829998753965,0,Maximum iteration count reached
+scenario-00043,LM,1,LM,max_iterations,100,101,0.030367699917405844,0,Maximum iteration count reached
+scenario-00043,BFGS,1,BFGS,max_iterations,100,149,0.01956589997280389,0,Maximum iteration count reached
+scenario-00043,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.04160640004556626,0,Maximum iteration count reached
+scenario-00043,fixed_gn_adaptive,1,Gauss-Newton,max_iterations,100,1096,0.047404700075276196,0,Maximum iteration count reached
+scenario-00043,fixed_gn_adaptive,2,Levenberg-Marquardt,max_iterations,100,101,0.03364160005003214,0,Maximum iteration count reached
+scenario-00043,fixed_gn_adaptive,3,BFGS,max_iterations,100,158,0.0197512999875471,0,Maximum iteration count reached
+scenario-00043,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.028627200052142143,0,Maximum iteration count reached
+scenario-00043,full_hybrid,2,BFGS,max_iterations,100,159,0.020144999958574772,0,Maximum iteration count reached
+scenario-00044,GN,1,GN,converged,10,39,0.002152599976398051,0,
+scenario-00044,LM,1,LM,max_iterations,100,101,0.027186500024981797,0,Maximum iteration count reached
+scenario-00044,BFGS,1,BFGS,max_iterations,100,155,0.018192899995483458,0,Maximum iteration count reached
+scenario-00044,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.027496800059452653,0,Maximum iteration count reached
+scenario-00044,fixed_gn_adaptive,1,Gauss-Newton,converged,10,39,0.002117699943482876,0,
+scenario-00044,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.026011500041931868,0,Maximum iteration count reached
+scenario-00044,full_hybrid,2,BFGS,max_iterations,100,134,0.01897480001207441,0,Maximum iteration count reached
+scenario-00045,GN,1,GN,rank_deficient,0,1,0.00010710000060498714,0,Jacobian rank is 1; four independent state directions are required
+scenario-00045,LM,1,LM,rank_deficient,0,1,0.00010240008123219013,0,Jacobian rank is 1; four independent state directions are required
+scenario-00045,BFGS,1,BFGS,rank_deficient,0,1,7.730000652372837e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00046,GN,1,GN,rank_deficient,0,1,7.639999967068434e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00046,LM,1,LM,rank_deficient,0,1,8.649996016174555e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00046,BFGS,1,BFGS,rank_deficient,0,1,8.649996016174555e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00047,GN,1,GN,rank_deficient,0,1,8.570007048547268e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00047,LM,1,LM,rank_deficient,0,1,0.00010950001887977123,0,Jacobian rank is 1; four independent state directions are required
+scenario-00047,BFGS,1,BFGS,rank_deficient,0,1,9.450002107769251e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00048,GN,1,GN,converged,4,34,0.001489899936132133,0,
+scenario-00048,LM,1,LM,converged,5,6,0.0014470000751316547,0,
+scenario-00048,BFGS,1,BFGS,converged,17,48,0.006104000029154122,0,
+scenario-00048,initial_selection_only,1,Gauss-Newton,converged,4,34,0.0013141999952495098,0,
+scenario-00048,fixed_gn_adaptive,1,Gauss-Newton,converged,4,34,0.0014992000069469213,0,
+scenario-00048,full_hybrid,1,Gauss-Newton,converged,4,34,0.00130540004465729,0,
+scenario-00049,GN,1,GN,converged,2,3,0.00039009994361549616,0,
+scenario-00049,LM,1,LM,converged,7,8,0.0017043000552803278,3,
+scenario-00049,BFGS,1,BFGS,converged,12,15,0.002007500035688281,0,
+scenario-00049,initial_selection_only,1,Gauss-Newton,converged,2,3,0.001114899991080165,0,
+scenario-00049,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0007082000374794006,0,
+scenario-00049,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006978000747039914,0,
+scenario-00050,GN,1,GN,converged,2,3,0.0004086000844836235,0,
+scenario-00050,LM,1,LM,converged,5,6,0.001307999948039651,1,
+scenario-00050,BFGS,1,BFGS,converged,12,17,0.0022669999161735177,0,
+scenario-00050,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004042999353259802,0,
+scenario-00050,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003784000873565674,0,
+scenario-00050,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004104999825358391,0,
+scenario-00051,GN,1,GN,converged,2,3,0.0003792999777942896,0,
+scenario-00051,LM,1,LM,converged,4,5,0.0011607999913394451,0,
+scenario-00051,BFGS,1,BFGS,converged,12,19,0.004633400007151067,0,
+scenario-00051,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004440000047907233,0,
+scenario-00051,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003915999550372362,0,
+scenario-00051,full_hybrid,1,Gauss-Newton,converged,2,3,0.00040749995969235897,0,
+scenario-00052,GN,1,GN,converged,2,3,0.00039709999691694975,0,
+scenario-00052,LM,1,LM,converged,4,5,0.0011593999806791544,0,
+scenario-00052,BFGS,1,BFGS,converged,11,17,0.0019023000495508313,0,
+scenario-00052,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039850000757724047,0,
+scenario-00052,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003624999662861228,0,
+scenario-00052,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003749999450519681,0,
+scenario-00053,GN,1,GN,converged,2,3,0.0003747999435290694,0,
+scenario-00053,LM,1,LM,converged,5,6,0.0028609998989850283,1,
+scenario-00053,BFGS,1,BFGS,converged,12,17,0.002220100024715066,0,
+scenario-00053,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006748999003320932,0,
+scenario-00053,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00041069998405873775,0,
+scenario-00053,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003703999100252986,0,
+scenario-00054,GN,1,GN,converged,4,5,0.000637599965557456,0,
+scenario-00054,LM,1,LM,converged,18,19,0.004332699929364026,0,
+scenario-00054,BFGS,1,BFGS,converged,17,40,0.004459999967366457,0,
+scenario-00054,initial_selection_only,1,Levenberg-Marquardt,converged,18,19,0.006140099954791367,0,
+scenario-00054,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0009471999946981668,0,
+scenario-00054,full_hybrid,1,Levenberg-Marquardt,converged,18,19,0.007173200021497905,0,
+scenario-00055,GN,1,GN,rank_deficient,3,36,0.0013961000367999077,0,Jacobian became rank deficient
+scenario-00055,LM,1,LM,max_iterations,100,101,0.025382600026205182,0,Maximum iteration count reached
+scenario-00055,BFGS,1,BFGS,max_iterations,100,151,0.0202300000237301,0,Maximum iteration count reached
+scenario-00055,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.027264200034551322,0,Maximum iteration count reached
+scenario-00055,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,3,36,0.0014691000105813146,0,Jacobian became rank deficient
+scenario-00055,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.02669990004505962,0,Maximum iteration count reached
+scenario-00055,full_hybrid,2,BFGS,converged,40,56,0.009388200007379055,0,
+scenario-00056,GN,1,GN,rank_deficient,3,41,0.0013191000325605273,0,Jacobian became rank deficient
+scenario-00056,LM,1,LM,max_iterations,100,101,0.03150820010341704,0,Maximum iteration count reached
+scenario-00056,BFGS,1,BFGS,max_iterations,100,157,0.018777200020849705,0,Maximum iteration count reached
+scenario-00056,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.0303000999847427,0,Maximum iteration count reached
+scenario-00056,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,3,41,0.001323999953456223,0,Jacobian became rank deficient
+scenario-00056,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.02974030002951622,0,Maximum iteration count reached
+scenario-00056,full_hybrid,2,BFGS,max_iterations,100,151,0.018324999953620136,0,Maximum iteration count reached
+scenario-00057,GN,1,GN,rank_deficient,0,1,0.00020589993800967932,0,Jacobian rank is 1; four independent state directions are required
+scenario-00057,LM,1,LM,rank_deficient,0,1,0.0002370000584051013,0,Jacobian rank is 1; four independent state directions are required
+scenario-00057,BFGS,1,BFGS,rank_deficient,0,1,0.0001930000726133585,0,Jacobian rank is 1; four independent state directions are required
+scenario-00058,GN,1,GN,rank_deficient,0,1,0.00023980007972568274,0,Jacobian rank is 1; four independent state directions are required
+scenario-00058,LM,1,LM,rank_deficient,0,1,0.0001708000199869275,0,Jacobian rank is 1; four independent state directions are required
+scenario-00058,BFGS,1,BFGS,rank_deficient,0,1,0.00013320008292794228,0,Jacobian rank is 1; four independent state directions are required
+scenario-00059,GN,1,GN,rank_deficient,0,1,0.00013050006236881018,0,Jacobian rank is 1; four independent state directions are required
+scenario-00059,LM,1,LM,rank_deficient,0,1,0.00016920000780373812,0,Jacobian rank is 1; four independent state directions are required
+scenario-00059,BFGS,1,BFGS,rank_deficient,0,1,0.00014370004646480083,0,Jacobian rank is 1; four independent state directions are required
+scenario-00060,GN,1,GN,converged,2,3,0.00045029993634670973,0,
+scenario-00060,LM,1,LM,converged,5,6,0.0014016000786796212,0,
+scenario-00060,BFGS,1,BFGS,converged,11,17,0.0018460999708622694,0,
+scenario-00060,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00042049994226545095,0,
+scenario-00060,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003591999411582947,0,
+scenario-00060,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003923999611288309,0,
+scenario-00061,GN,1,GN,converged,2,3,0.0012749000452458858,0,
+scenario-00061,LM,1,LM,converged,4,5,0.002380699967034161,0,
+scenario-00061,BFGS,1,BFGS,converged,12,43,0.002610500087030232,0,
+scenario-00061,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004184000426903367,0,
+scenario-00061,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.000394799979403615,0,
+scenario-00061,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003627999685704708,0,
+scenario-00062,GN,1,GN,converged,2,3,0.0003874999238178134,0,
+scenario-00062,LM,1,LM,converged,4,5,0.0011029999004676938,0,
+scenario-00062,BFGS,1,BFGS,converged,12,15,0.0019125000108033419,0,
+scenario-00062,initial_selection_only,1,Gauss-Newton,converged,2,3,0.000368500011973083,0,
+scenario-00062,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003784000873565674,0,
+scenario-00062,full_hybrid,1,Gauss-Newton,converged,2,3,0.0016280000563710928,0,
+scenario-00063,GN,1,GN,converged,2,3,0.0005319999763742089,0,
+scenario-00063,LM,1,LM,converged,6,7,0.0017102999845519662,0,
+scenario-00063,BFGS,1,BFGS,converged,13,23,0.002251200028695166,0,
+scenario-00063,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039980001747608185,0,
+scenario-00063,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00037949997931718826,0,
+scenario-00063,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003880000440403819,0,
+scenario-00064,GN,1,GN,converged,2,3,0.0003649999853223562,0,
+scenario-00064,LM,1,LM,numerical_failure,48,49,0.011352299945428967,45,LM damping and scaling exceed floating-point range
+scenario-00064,BFGS,1,BFGS,converged,12,16,0.001960100024007261,0,
+scenario-00064,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039029994513839483,0,
+scenario-00064,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003969999961555004,0,
+scenario-00064,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003727999283000827,0,
+scenario-00065,GN,1,GN,converged,2,3,0.00035310001112520695,0,
+scenario-00065,LM,1,LM,converged,4,5,0.0010951999574899673,0,
+scenario-00065,BFGS,1,BFGS,converged,7,12,0.0029446000698953867,0,
+scenario-00065,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006152000278234482,0,
+scenario-00065,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003703999100252986,0,
+scenario-00065,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039909989573061466,0,
+scenario-00066,GN,1,GN,converged,4,5,0.0006276000058278441,0,
+scenario-00066,LM,1,LM,converged,17,18,0.00409659999422729,0,
+scenario-00066,BFGS,1,BFGS,converged,45,52,0.00936090003233403,0,
+scenario-00066,initial_selection_only,1,Levenberg-Marquardt,converged,17,18,0.004179500043392181,0,
+scenario-00066,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006796999368816614,0,
+scenario-00066,full_hybrid,1,Levenberg-Marquardt,converged,17,18,0.005235699936747551,0,
+scenario-00067,GN,1,GN,converged,7,31,0.0021326999412849545,0,
+scenario-00067,LM,1,LM,max_iterations,100,101,0.02796819992363453,0,Maximum iteration count reached
+scenario-00067,BFGS,1,BFGS,max_iterations,100,158,0.019555400009267032,0,Maximum iteration count reached
+scenario-00067,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.027347899973392487,0,Maximum iteration count reached
+scenario-00067,fixed_gn_adaptive,1,Gauss-Newton,converged,7,31,0.0029172999784350395,0,
+scenario-00067,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.03233349998481572,0,Maximum iteration count reached
+scenario-00067,full_hybrid,2,BFGS,converged,2,10,0.0010146000422537327,0,
+scenario-00068,GN,1,GN,line_search_failed,37,250,0.010733599890954792,1,No decreasing Gauss-Newton trial step was found
+scenario-00068,LM,1,LM,max_iterations,100,101,0.028080200077965856,0,Maximum iteration count reached
+scenario-00068,BFGS,1,BFGS,max_iterations,100,152,0.020972899976186454,0,Maximum iteration count reached
+scenario-00068,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.025831299950368702,0,Maximum iteration count reached
+scenario-00068,fixed_gn_adaptive,1,Gauss-Newton,line_search_failed,37,250,0.012384200002998114,1,No decreasing Gauss-Newton trial step was found
+scenario-00068,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.030745700001716614,0,Maximum iteration count reached
+scenario-00068,full_hybrid,2,BFGS,max_iterations,100,156,0.01989200001116842,0,Maximum iteration count reached
+scenario-00069,GN,1,GN,rank_deficient,0,1,0.0002354000462219119,0,Jacobian rank is 1; four independent state directions are required
+scenario-00069,LM,1,LM,rank_deficient,0,1,0.00022569997236132622,0,Jacobian rank is 1; four independent state directions are required
+scenario-00069,BFGS,1,BFGS,rank_deficient,0,1,0.000458399998024106,0,Jacobian rank is 1; four independent state directions are required
+scenario-00070,GN,1,GN,rank_deficient,0,1,0.00016160006634891033,0,Jacobian rank is 1; four independent state directions are required
+scenario-00070,LM,1,LM,rank_deficient,0,1,0.00016020005568861961,0,Jacobian rank is 1; four independent state directions are required
+scenario-00070,BFGS,1,BFGS,rank_deficient,0,1,0.00016870000399649143,0,Jacobian rank is 1; four independent state directions are required
+scenario-00071,GN,1,GN,rank_deficient,0,1,9.059999138116837e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00071,LM,1,LM,rank_deficient,0,1,9.810004848986864e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00071,BFGS,1,BFGS,rank_deficient,0,1,8.60999571159482e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00072,GN,1,GN,converged,2,3,0.0004749000072479248,0,
+scenario-00072,LM,1,LM,converged,4,5,0.001182599924504757,0,
+scenario-00072,BFGS,1,BFGS,converged,11,16,0.0028087999671697617,0,
+scenario-00072,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004053999437019229,0,
+scenario-00072,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038380001205950975,0,
+scenario-00072,full_hybrid,1,Gauss-Newton,converged,2,3,0.001334700034931302,0,
+scenario-00073,GN,1,GN,converged,2,3,0.000738999922759831,0,
+scenario-00073,LM,1,LM,converged,4,5,0.0019950999412685633,0,
+scenario-00073,BFGS,1,BFGS,converged,12,15,0.0019425000064074993,0,
+scenario-00073,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004151000175625086,0,
+scenario-00073,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003760999534279108,0,
+scenario-00073,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038600002881139517,0,
+scenario-00074,GN,1,GN,converged,2,3,0.0003784000873565674,0,
+scenario-00074,LM,1,LM,converged,4,5,0.001401199959218502,0,
+scenario-00074,BFGS,1,BFGS,converged,9,15,0.0016061998903751373,0,
+scenario-00074,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003945000935345888,0,
+scenario-00074,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.001057300018146634,0,
+scenario-00074,full_hybrid,1,Gauss-Newton,converged,2,3,0.000681100063957274,0,
+scenario-00075,GN,1,GN,converged,2,21,0.0010052999714389443,0,
+scenario-00075,LM,1,LM,converged,8,9,0.0021431000204756856,0,
+scenario-00075,BFGS,1,BFGS,converged,17,57,0.003816200071014464,0,
+scenario-00075,initial_selection_only,1,Gauss-Newton,converged,2,21,0.0007782999891787767,0,
+scenario-00075,fixed_gn_adaptive,1,Gauss-Newton,converged,2,21,0.0007693000370636582,0,
+scenario-00075,full_hybrid,1,Gauss-Newton,converged,2,21,0.0007565999403595924,0,
+scenario-00076,GN,1,GN,converged,2,3,0.0005673000123351812,0,
+scenario-00076,LM,1,LM,converged,5,6,0.002557500032708049,0,
+scenario-00076,BFGS,1,BFGS,converged,14,17,0.0024841000558808446,0,
+scenario-00076,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00040410005021840334,0,
+scenario-00076,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00036479998379945755,0,
+scenario-00076,full_hybrid,1,Gauss-Newton,converged,2,3,0.00037940009497106075,0,
+scenario-00077,GN,1,GN,converged,2,3,0.0005499999970197678,0,
+scenario-00077,LM,1,LM,converged,4,5,0.001281699980609119,0,
+scenario-00077,BFGS,1,BFGS,converged,9,13,0.0015432999935001135,0,
+scenario-00077,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00040580006316304207,0,
+scenario-00077,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0008641999447718263,0,
+scenario-00077,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006720999954268336,0,
+scenario-00078,GN,1,GN,rank_deficient,4,5,0.0010559000074863434,0,Jacobian became rank deficient
+scenario-00078,LM,1,LM,converged,20,21,0.006044000037945807,0,
+scenario-00078,BFGS,1,BFGS,converged,51,61,0.010386500041931868,0,
+scenario-00078,initial_selection_only,1,Levenberg-Marquardt,converged,20,21,0.005471699987538159,0,
+scenario-00078,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,4,5,0.0006360000697895885,0,Jacobian became rank deficient
+scenario-00078,full_hybrid,1,Levenberg-Marquardt,converged,20,21,0.006480799987912178,0,
+scenario-00079,GN,1,GN,rank_deficient,2,15,0.0006197000620886683,0,Jacobian became rank deficient
+scenario-00079,LM,1,LM,max_iterations,100,101,0.02623790001962334,0,Maximum iteration count reached
+scenario-00079,BFGS,1,BFGS,max_iterations,100,150,0.02109400008339435,0,Maximum iteration count reached
+scenario-00079,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.0308798000914976,0,Maximum iteration count reached
+scenario-00079,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,2,15,0.0006466000340878963,0,Jacobian became rank deficient
+scenario-00079,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.03137750003952533,0,Maximum iteration count reached
+scenario-00079,full_hybrid,2,BFGS,max_iterations,100,160,0.019873199984431267,0,Maximum iteration count reached
+scenario-00080,GN,1,GN,rank_deficient,3,34,0.0011356000322848558,0,Jacobian became rank deficient
+scenario-00080,LM,1,LM,max_iterations,100,101,0.03063519997522235,0,Maximum iteration count reached
+scenario-00080,BFGS,1,BFGS,max_iterations,100,152,0.020063700038008392,0,Maximum iteration count reached
+scenario-00080,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.029424500069580972,0,Maximum iteration count reached
+scenario-00080,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,3,34,0.001123499940149486,0,Jacobian became rank deficient
+scenario-00080,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.029206500039435923,0,Maximum iteration count reached
+scenario-00080,full_hybrid,2,BFGS,max_iterations,100,142,0.01833939994685352,0,Maximum iteration count reached
+scenario-00081,GN,1,GN,rank_deficient,0,1,0.0002391999587416649,0,Jacobian rank is 1; four independent state directions are required
+scenario-00081,LM,1,LM,rank_deficient,0,1,0.0002196000423282385,0,Jacobian rank is 1; four independent state directions are required
+scenario-00081,BFGS,1,BFGS,rank_deficient,0,1,0.0001669999910518527,0,Jacobian rank is 1; four independent state directions are required
+scenario-00082,GN,1,GN,rank_deficient,0,1,8.809997234493494e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00082,LM,1,LM,rank_deficient,0,1,0.00017749995458871126,0,Jacobian rank is 1; four independent state directions are required
+scenario-00082,BFGS,1,BFGS,rank_deficient,0,1,7.979990914463997e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00083,GN,1,GN,rank_deficient,0,1,8.320005144923925e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00083,LM,1,LM,rank_deficient,0,1,8.619995787739754e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00083,BFGS,1,BFGS,rank_deficient,0,1,7.509998977184296e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00084,GN,1,GN,converged,2,3,0.00047400000039488077,0,
+scenario-00084,LM,1,LM,converged,5,6,0.0014803000958636403,1,
+scenario-00084,BFGS,1,BFGS,converged,12,46,0.0026137999957427382,0,
+scenario-00084,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039219995960593224,0,
+scenario-00084,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003592000575736165,0,
+scenario-00084,full_hybrid,1,Gauss-Newton,converged,2,3,0.00037610006984323263,0,
+scenario-00085,GN,1,GN,converged,2,3,0.0003690000157803297,0,
+scenario-00085,LM,1,LM,converged,3,4,0.0021320999367162585,0,
+scenario-00085,BFGS,1,BFGS,converged,10,16,0.00280030001886189,0,
+scenario-00085,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00040140002965927124,0,
+scenario-00085,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038330000825226307,0,
+scenario-00085,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038129999302327633,0,
+scenario-00086,GN,1,GN,converged,2,3,0.0003727000439539552,0,
+scenario-00086,LM,1,LM,converged,4,5,0.00114949990529567,0,
+scenario-00086,BFGS,1,BFGS,converged,12,27,0.0021410000044852495,0,
+scenario-00086,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003635999746620655,0,
+scenario-00086,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00039739999920129776,0,
+scenario-00086,full_hybrid,1,Gauss-Newton,converged,2,3,0.00036319997161626816,0,
+scenario-00087,GN,1,GN,converged,2,3,0.00035099999513477087,0,
+scenario-00087,LM,1,LM,converged,9,10,0.004755500005558133,4,
+scenario-00087,BFGS,1,BFGS,converged,14,36,0.0029346999945119023,0,
+scenario-00087,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039849989116191864,0,
+scenario-00087,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003776999656111002,0,
+scenario-00087,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003883000463247299,0,
+scenario-00088,GN,1,GN,converged,2,3,0.00039790000300854445,0,
+scenario-00088,LM,1,LM,numerical_failure,48,49,0.011992700048722327,45,LM damping and scaling exceed floating-point range
+scenario-00088,BFGS,1,BFGS,converged,9,18,0.0016571999294683337,0,
+scenario-00088,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039709999691694975,0,
+scenario-00088,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0004195000510662794,0,
+scenario-00088,full_hybrid,1,Gauss-Newton,converged,2,3,0.00037729996256530285,0,
+scenario-00089,GN,1,GN,converged,2,3,0.0003839000128209591,0,
+scenario-00089,LM,1,LM,converged,5,6,0.0013438999885693192,0,
+scenario-00089,BFGS,1,BFGS,converged,14,19,0.004509299993515015,0,
+scenario-00089,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006791999330744147,0,
+scenario-00089,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00043450004886835814,0,
+scenario-00089,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004192000487819314,0,
+scenario-00090,GN,1,GN,converged,7,14,0.0011523999273777008,0,
+scenario-00090,LM,1,LM,converged,19,20,0.004609600058756769,0,
+scenario-00090,BFGS,1,BFGS,converged,51,84,0.010581200011074543,0,
+scenario-00090,initial_selection_only,1,Levenberg-Marquardt,converged,19,20,0.004656500066630542,0,
+scenario-00090,fixed_gn_adaptive,1,Gauss-Newton,converged,7,14,0.0012732000323012471,0,
+scenario-00090,full_hybrid,1,Levenberg-Marquardt,converged,19,20,0.008471400011330843,0,
+scenario-00091,GN,1,GN,rank_deficient,4,50,0.0015930000226944685,0,Jacobian became rank deficient
+scenario-00091,LM,1,LM,max_iterations,100,101,0.030302900006063282,1,Maximum iteration count reached
+scenario-00091,BFGS,1,BFGS,max_iterations,100,158,0.01825930003542453,0,Maximum iteration count reached
+scenario-00091,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.030909599969163537,1,Maximum iteration count reached
+scenario-00091,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,4,50,0.0018650999991223216,0,Jacobian became rank deficient
+scenario-00091,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.032296800054609776,1,Maximum iteration count reached
+scenario-00091,full_hybrid,2,BFGS,max_iterations,100,158,0.022100300062447786,0,Maximum iteration count reached
+scenario-00092,GN,1,GN,rank_deficient,3,38,0.0018744999542832375,0,Jacobian became rank deficient
+scenario-00092,LM,1,LM,converged,78,79,0.022543299943208694,0,
+scenario-00092,BFGS,1,BFGS,max_iterations,100,141,0.01776279998011887,0,Maximum iteration count reached
+scenario-00092,initial_selection_only,1,Levenberg-Marquardt,converged,78,79,0.02235579991247505,0,
+scenario-00092,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,3,38,0.0012249000137671828,0,Jacobian became rank deficient
+scenario-00092,full_hybrid,1,Levenberg-Marquardt,converged,78,79,0.02057479997165501,0,
+scenario-00093,GN,1,GN,rank_deficient,0,1,0.00019910000264644623,0,Jacobian rank is 1; four independent state directions are required
+scenario-00093,LM,1,LM,rank_deficient,0,1,0.0002410999732092023,0,Jacobian rank is 1; four independent state directions are required
+scenario-00093,BFGS,1,BFGS,rank_deficient,0,1,0.00018089998047798872,0,Jacobian rank is 1; four independent state directions are required
+scenario-00094,GN,1,GN,rank_deficient,0,1,0.00015730003360658884,0,Jacobian rank is 1; four independent state directions are required
+scenario-00094,LM,1,LM,rank_deficient,0,1,0.00016000005416572094,0,Jacobian rank is 1; four independent state directions are required
+scenario-00094,BFGS,1,BFGS,rank_deficient,0,1,0.0001495999749749899,0,Jacobian rank is 1; four independent state directions are required
+scenario-00095,GN,1,GN,rank_deficient,0,1,8.729996625334024e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00095,LM,1,LM,rank_deficient,0,1,9.600003249943256e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00095,BFGS,1,BFGS,rank_deficient,0,1,7.790001109242439e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00096,GN,1,GN,converged,2,3,0.00044319999869912863,0,
+scenario-00096,LM,1,LM,converged,4,5,0.0011794000165537,0,
+scenario-00096,BFGS,1,BFGS,converged,8,10,0.0015045999316498637,0,
+scenario-00096,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004276999970898032,0,
+scenario-00096,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003690000157803297,0,
+scenario-00096,full_hybrid,1,Gauss-Newton,converged,2,3,0.00036369997542351484,0,
+scenario-00097,GN,1,GN,converged,2,3,0.0008932000491768122,0,
+scenario-00097,LM,1,LM,converged,4,5,0.002714900067076087,0,
+scenario-00097,BFGS,1,BFGS,converged,10,12,0.0018619000911712646,0,
+scenario-00097,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00038490002043545246,0,
+scenario-00097,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00039469997864216566,0,
+scenario-00097,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039499998092651367,0,
+scenario-00098,GN,1,GN,converged,2,3,0.0003583999350667,0,
+scenario-00098,LM,1,LM,converged,4,5,0.0011350000277161598,0,
+scenario-00098,BFGS,1,BFGS,converged,10,12,0.0016114999307319522,0,
+scenario-00098,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003735999343916774,0,
+scenario-00098,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003736000508069992,0,
+scenario-00098,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004227999597787857,0,
+scenario-00099,GN,1,GN,converged,2,3,0.0004721999866887927,0,
+scenario-00099,LM,1,LM,converged,14,15,0.005225299973972142,0,
+scenario-00099,BFGS,1,BFGS,converged,27,30,0.004125199979171157,0,
+scenario-00099,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003671000013127923,0,
+scenario-00099,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00039709999691694975,0,
+scenario-00099,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003602000651881099,0,
+scenario-00100,GN,1,GN,converged,4,5,0.0006260999944061041,0,
+scenario-00100,LM,1,LM,converged,16,17,0.006905199959874153,0,
+scenario-00100,BFGS,1,BFGS,converged,42,45,0.006353600067086518,0,
+scenario-00100,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0006531999679282308,0,
+scenario-00100,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0007128999568521976,0,
+scenario-00100,full_hybrid,1,Gauss-Newton,converged,4,5,0.0006298000225797296,0,
+scenario-00101,GN,1,GN,converged,4,5,0.0006266999989748001,0,
+scenario-00101,LM,1,LM,converged,17,18,0.005882199970073998,0,
+scenario-00101,BFGS,1,BFGS,converged,37,40,0.0069292999105528,0,
+scenario-00101,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0006694999756291509,0,
+scenario-00101,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006283000111579895,0,
+scenario-00101,full_hybrid,1,Gauss-Newton,converged,4,5,0.0015852999640628695,0,
+scenario-00102,GN,1,GN,converged,4,5,0.0011735999723896384,0,
+scenario-00102,LM,1,LM,converged,17,18,0.004836999927647412,0,
+scenario-00102,BFGS,1,BFGS,converged,38,43,0.01012959994841367,0,
+scenario-00102,initial_selection_only,1,Levenberg-Marquardt,converged,17,18,0.005002500023692846,0,
+scenario-00102,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0007383999181911349,0,
+scenario-00102,full_hybrid,1,Levenberg-Marquardt,converged,17,18,0.004044099943712354,0,
+scenario-00103,GN,1,GN,rank_deficient,5,73,0.004157199990004301,0,Jacobian became rank deficient
+scenario-00103,LM,1,LM,max_iterations,100,101,0.026691499981097877,0,Maximum iteration count reached
+scenario-00103,BFGS,1,BFGS,max_iterations,100,155,0.020763500011526048,0,Maximum iteration count reached
+scenario-00103,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.02729130000807345,0,Maximum iteration count reached
+scenario-00103,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,5,73,0.004200699971988797,0,Jacobian became rank deficient
+scenario-00103,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.02793979994021356,0,Maximum iteration count reached
+scenario-00103,full_hybrid,2,BFGS,max_iterations,100,155,0.019116600044071674,0,Maximum iteration count reached
+scenario-00104,GN,1,GN,converged,8,42,0.0019756999099627137,0,
+scenario-00104,LM,1,LM,converged,3,4,0.0009259999496862292,0,
+scenario-00104,BFGS,1,BFGS,converged,17,69,0.0036432999186217785,0,
+scenario-00104,initial_selection_only,1,Levenberg-Marquardt,converged,3,4,0.0009038000134751201,0,
+scenario-00104,fixed_gn_adaptive,1,Gauss-Newton,converged,8,42,0.004633899894542992,0,
+scenario-00104,full_hybrid,1,Levenberg-Marquardt,converged,3,4,0.0009903000900521874,0,
+scenario-00105,GN,1,GN,rank_deficient,0,1,8.610007353127003e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00105,LM,1,LM,rank_deficient,0,1,8.850009180605412e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00105,BFGS,1,BFGS,rank_deficient,0,1,8.649996016174555e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00106,GN,1,GN,rank_deficient,0,1,7.970002479851246e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00106,LM,1,LM,rank_deficient,0,1,8.60999571159482e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00106,BFGS,1,BFGS,rank_deficient,0,1,7.210008334368467e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00107,GN,1,GN,rank_deficient,0,1,7.979990914463997e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00107,LM,1,LM,rank_deficient,0,1,8.319993503391743e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00107,BFGS,1,BFGS,rank_deficient,0,1,7.329997606575489e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00108,GN,1,GN,converged,2,3,0.00040879996959120035,0,
+scenario-00108,LM,1,LM,converged,4,5,0.0011244999477639794,0,
+scenario-00108,BFGS,1,BFGS,converged,9,11,0.0014535000082105398,0,
+scenario-00108,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00035880005452781916,0,
+scenario-00108,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003736999351531267,0,
+scenario-00108,full_hybrid,1,Gauss-Newton,converged,2,3,0.0005533000221475959,0,
+scenario-00109,GN,1,GN,converged,2,3,0.0007024999940767884,0,
+scenario-00109,LM,1,LM,converged,4,5,0.0015263999812304974,0,
+scenario-00109,BFGS,1,BFGS,converged,8,11,0.0013806000351905823,0,
+scenario-00109,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003989000106230378,0,
+scenario-00109,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003654999891296029,0,
+scenario-00109,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003692999016493559,0,
+scenario-00110,GN,1,GN,converged,2,3,0.00038049998693168163,0,
+scenario-00110,LM,1,LM,converged,4,5,0.001128000090830028,0,
+scenario-00110,BFGS,1,BFGS,converged,9,11,0.0014269999228417873,0,
+scenario-00110,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00038320000749081373,0,
+scenario-00110,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00037619995418936014,0,
+scenario-00110,full_hybrid,1,Gauss-Newton,converged,2,3,0.001117600011639297,0,
+scenario-00111,GN,1,GN,converged,2,3,0.000573099940083921,0,
+scenario-00111,LM,1,LM,converged,14,15,0.003692499944008887,0,
+scenario-00111,BFGS,1,BFGS,converged,35,38,0.005208600079640746,0,
+scenario-00111,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00040659995283931494,0,
+scenario-00111,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.000355200027115643,0,
+scenario-00111,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003937000874429941,0,
+scenario-00112,GN,1,GN,converged,4,5,0.002645400003530085,0,
+scenario-00112,LM,1,LM,converged,16,17,0.005749200005084276,0,
+scenario-00112,BFGS,1,BFGS,converged,42,45,0.008803999982774258,0,
+scenario-00112,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0011425999691709876,0,
+scenario-00112,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006852999795228243,0,
+scenario-00112,full_hybrid,1,Gauss-Newton,converged,4,5,0.0006123000057414174,0,
+scenario-00113,GN,1,GN,converged,3,4,0.0004994000773876905,0,
+scenario-00113,LM,1,LM,converged,15,16,0.0035792000126093626,0,
+scenario-00113,BFGS,1,BFGS,converged,44,47,0.008313800091855228,0,
+scenario-00113,initial_selection_only,1,Gauss-Newton,converged,3,4,0.0005538999103009701,0,
+scenario-00113,fixed_gn_adaptive,1,Gauss-Newton,converged,3,4,0.000506300013512373,0,
+scenario-00113,full_hybrid,1,Gauss-Newton,converged,3,4,0.0004972999449819326,0,
+scenario-00114,GN,1,GN,converged,8,9,0.0011590000940486789,0,
+scenario-00114,LM,1,LM,converged,16,17,0.003775999997742474,0,
+scenario-00114,BFGS,1,BFGS,converged,22,35,0.006775300018489361,0,
+scenario-00114,initial_selection_only,1,Levenberg-Marquardt,converged,16,17,0.0038961999816820025,0,
+scenario-00114,fixed_gn_adaptive,1,Gauss-Newton,converged,8,9,0.0011898999800905585,0,
+scenario-00114,full_hybrid,1,Levenberg-Marquardt,converged,16,17,0.0051735000452026725,0,
+scenario-00115,GN,1,GN,rank_deficient,6,90,0.004906799993477762,0,Jacobian became rank deficient
+scenario-00115,LM,1,LM,max_iterations,100,101,0.02780809998512268,0,Maximum iteration count reached
+scenario-00115,BFGS,1,BFGS,max_iterations,100,151,0.018965199938975275,0,Maximum iteration count reached
+scenario-00115,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.032855299999937415,0,Maximum iteration count reached
+scenario-00115,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,6,90,0.002670199959538877,0,Jacobian became rank deficient
+scenario-00115,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.028418100089766085,0,Maximum iteration count reached
+scenario-00115,full_hybrid,2,BFGS,max_iterations,100,156,0.01835300005041063,0,Maximum iteration count reached
+scenario-00116,GN,1,GN,rank_deficient,6,90,0.0031570999417454004,0,Jacobian became rank deficient
+scenario-00116,LM,1,LM,max_iterations,100,101,0.029502399964258075,0,Maximum iteration count reached
+scenario-00116,BFGS,1,BFGS,max_iterations,100,151,0.01894520001951605,0,Maximum iteration count reached
+scenario-00116,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028575100004673004,0,Maximum iteration count reached
+scenario-00116,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,6,90,0.002988400054164231,0,Jacobian became rank deficient
+scenario-00116,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.027037099935114384,0,Maximum iteration count reached
+scenario-00116,full_hybrid,2,BFGS,max_iterations,100,157,0.01899140002205968,0,Maximum iteration count reached
+scenario-00117,GN,1,GN,rank_deficient,0,1,0.00019940000493079424,0,Jacobian rank is 1; four independent state directions are required
+scenario-00117,LM,1,LM,rank_deficient,0,1,0.00019729998894035816,0,Jacobian rank is 1; four independent state directions are required
+scenario-00117,BFGS,1,BFGS,rank_deficient,0,1,0.00014809996355324984,0,Jacobian rank is 1; four independent state directions are required
+scenario-00118,GN,1,GN,rank_deficient,0,1,0.00016109994612634182,0,Jacobian rank is 1; four independent state directions are required
+scenario-00118,LM,1,LM,rank_deficient,0,1,0.00014729995746165514,0,Jacobian rank is 1; four independent state directions are required
+scenario-00118,BFGS,1,BFGS,rank_deficient,0,1,0.00013930001296103,0,Jacobian rank is 1; four independent state directions are required
+scenario-00119,GN,1,GN,rank_deficient,0,1,7.860001642256975e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00119,LM,1,LM,rank_deficient,0,1,8.610007353127003e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00119,BFGS,1,BFGS,rank_deficient,0,1,7.489998824894428e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00120,GN,1,GN,converged,2,3,0.00043809995986521244,0,
+scenario-00120,LM,1,LM,converged,4,5,0.0011350000277161598,0,
+scenario-00120,BFGS,1,BFGS,converged,6,9,0.0014848000137135386,0,
+scenario-00120,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004175999201834202,0,
+scenario-00120,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003677000058814883,0,
+scenario-00120,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003535000141710043,0,
+scenario-00121,GN,1,GN,converged,2,3,0.00038300000596791506,0,
+scenario-00121,LM,1,LM,converged,4,5,0.0011177000124007463,0,
+scenario-00121,BFGS,1,BFGS,converged,9,11,0.003265799954533577,0,
+scenario-00121,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006787999300286174,0,
+scenario-00121,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00044410000555217266,0,
+scenario-00121,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004005000228062272,0,
+scenario-00122,GN,1,GN,converged,2,3,0.00035450002178549767,0,
+scenario-00122,LM,1,LM,converged,4,5,0.001146900001913309,0,
+scenario-00122,BFGS,1,BFGS,converged,8,10,0.0021081999875605106,0,
+scenario-00122,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004061999497935176,0,
+scenario-00122,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003645999822765589,0,
+scenario-00122,full_hybrid,1,Gauss-Newton,converged,2,3,0.00036780000664293766,0,
+scenario-00123,GN,1,GN,converged,2,3,0.00038109999150037766,0,
+scenario-00123,LM,1,LM,converged,16,17,0.005721000023186207,0,
+scenario-00123,BFGS,1,BFGS,converged,31,34,0.005863800062797964,0,
+scenario-00123,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039499998092651367,0,
+scenario-00123,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003749999450519681,0,
+scenario-00123,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003630999708548188,0,
+scenario-00124,GN,1,GN,converged,5,6,0.0007455999730154872,0,
+scenario-00124,LM,1,LM,converged,17,18,0.006009100005030632,0,
+scenario-00124,BFGS,1,BFGS,converged,39,42,0.006644699955359101,0,
+scenario-00124,initial_selection_only,1,Gauss-Newton,converged,5,6,0.0008466999279335141,0,
+scenario-00124,fixed_gn_adaptive,1,Gauss-Newton,converged,5,6,0.0007697000401094556,0,
+scenario-00124,full_hybrid,1,Gauss-Newton,converged,5,6,0.0007639999967068434,0,
+scenario-00125,GN,1,GN,converged,4,5,0.0019325000466778874,0,
+scenario-00125,LM,1,LM,converged,16,17,0.005326600046828389,0,
+scenario-00125,BFGS,1,BFGS,converged,42,45,0.0062136000487953424,0,
+scenario-00125,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0006541999755427241,0,
+scenario-00125,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.001069399993866682,0,
+scenario-00125,full_hybrid,1,Gauss-Newton,converged,4,5,0.000712999957613647,0,
+scenario-00126,GN,1,GN,rank_deficient,2,3,0.00034580007195472717,0,Jacobian became rank deficient
+scenario-00126,LM,1,LM,converged,19,20,0.006012900033965707,0,
+scenario-00126,BFGS,1,BFGS,converged,42,49,0.00860659999307245,0,
+scenario-00126,initial_selection_only,1,Levenberg-Marquardt,converged,19,20,0.006217599962837994,0,
+scenario-00126,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,2,3,0.0003521000035107136,0,Jacobian became rank deficient
+scenario-00126,full_hybrid,1,Levenberg-Marquardt,converged,19,20,0.0062698000110685825,0,
+scenario-00127,GN,1,GN,rank_deficient,6,83,0.004241400049068034,0,Jacobian became rank deficient
+scenario-00127,LM,1,LM,max_iterations,100,101,0.029738400015048683,0,Maximum iteration count reached
+scenario-00127,BFGS,1,BFGS,max_iterations,100,156,0.018326299963518977,0,Maximum iteration count reached
+scenario-00127,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028887700056657195,0,Maximum iteration count reached
+scenario-00127,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,6,83,0.002472599968314171,0,Jacobian became rank deficient
+scenario-00127,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.050598699948750436,0,Maximum iteration count reached
+scenario-00127,full_hybrid,2,BFGS,max_iterations,100,162,0.01995260000694543,0,Maximum iteration count reached
+scenario-00128,GN,1,GN,converged,10,39,0.0034779999405145645,0,
+scenario-00128,LM,1,LM,max_iterations,100,101,0.030706000048667192,0,Maximum iteration count reached
+scenario-00128,BFGS,1,BFGS,max_iterations,100,157,0.018759099999442697,0,Maximum iteration count reached
+scenario-00128,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.02563910000026226,0,Maximum iteration count reached
+scenario-00128,fixed_gn_adaptive,1,Gauss-Newton,converged,10,39,0.0021856999956071377,0,
+scenario-00128,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.026166199939325452,0,Maximum iteration count reached
+scenario-00128,full_hybrid,2,BFGS,max_iterations,100,134,0.019148699939250946,0,Maximum iteration count reached
+scenario-00129,GN,1,GN,rank_deficient,0,1,9.280000813305378e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00129,LM,1,LM,rank_deficient,0,1,0.00010060006752610207,0,Jacobian rank is 1; four independent state directions are required
+scenario-00129,BFGS,1,BFGS,rank_deficient,0,1,0.00013489997945725918,0,Jacobian rank is 1; four independent state directions are required
+scenario-00130,GN,1,GN,rank_deficient,0,1,0.00012940005399286747,0,Jacobian rank is 1; four independent state directions are required
+scenario-00130,LM,1,LM,rank_deficient,0,1,8.750008419156075e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00130,BFGS,1,BFGS,rank_deficient,0,1,0.00012260000221431255,0,Jacobian rank is 1; four independent state directions are required
+scenario-00131,GN,1,GN,rank_deficient,0,1,7.51999905332923e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00131,LM,1,LM,rank_deficient,0,1,0.00014159991405904293,0,Jacobian rank is 1; four independent state directions are required
+scenario-00131,BFGS,1,BFGS,rank_deficient,0,1,7.27999722585082e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00132,GN,1,GN,converged,2,3,0.00047259998973459005,0,
+scenario-00132,LM,1,LM,converged,4,5,0.00121779995970428,0,
+scenario-00132,BFGS,1,BFGS,converged,10,12,0.002059199963696301,0,
+scenario-00132,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0018249000422656536,0,
+scenario-00132,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0007339000003412366,0,
+scenario-00132,full_hybrid,1,Gauss-Newton,converged,2,3,0.00045460008550435305,0,
+scenario-00133,GN,1,GN,converged,2,3,0.00041820004116743803,0,
+scenario-00133,LM,1,LM,converged,4,5,0.0011909999884665012,0,
+scenario-00133,BFGS,1,BFGS,converged,8,11,0.001375199994072318,0,
+scenario-00133,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039409997407346964,0,
+scenario-00133,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038219999987632036,0,
+scenario-00133,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003816999960690737,0,
+scenario-00134,GN,1,GN,converged,2,3,0.0003572999266907573,0,
+scenario-00134,LM,1,LM,converged,4,5,0.001098700100556016,0,
+scenario-00134,BFGS,1,BFGS,converged,8,10,0.0012875000247731805,0,
+scenario-00134,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003559000324457884,0,
+scenario-00134,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0010582000249996781,0,
+scenario-00134,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006091000977903605,0,
+scenario-00135,GN,1,GN,converged,2,3,0.0005201000021770597,0,
+scenario-00135,LM,1,LM,converged,15,16,0.0036980999866500497,0,
+scenario-00135,BFGS,1,BFGS,converged,37,40,0.005551400012336671,0,
+scenario-00135,initial_selection_only,1,Gauss-Newton,converged,2,3,0.001560000004246831,0,
+scenario-00135,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0008735000155866146,0,
+scenario-00135,full_hybrid,1,Gauss-Newton,converged,2,3,0.0008086999878287315,0,
+scenario-00136,GN,1,GN,converged,4,5,0.0007245000451803207,0,
+scenario-00136,LM,1,LM,converged,16,17,0.003960800007916987,0,
+scenario-00136,BFGS,1,BFGS,converged,45,48,0.009373100008815527,0,
+scenario-00136,initial_selection_only,1,Gauss-Newton,converged,4,5,0.001003099954687059,0,
+scenario-00136,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006862999871373177,0,
+scenario-00136,full_hybrid,1,Gauss-Newton,converged,4,5,0.0007227999158203602,0,
+scenario-00137,GN,1,GN,converged,4,5,0.0007536999182775617,0,
+scenario-00137,LM,1,LM,converged,16,17,0.003887500031851232,0,
+scenario-00137,BFGS,1,BFGS,converged,41,44,0.008571299957111478,0,
+scenario-00137,initial_selection_only,1,Gauss-Newton,converged,4,5,0.0006569999968633056,0,
+scenario-00137,fixed_gn_adaptive,1,Gauss-Newton,converged,4,5,0.0006516000721603632,0,
+scenario-00137,full_hybrid,1,Gauss-Newton,converged,4,5,0.000623999978415668,0,
+scenario-00138,GN,1,GN,converged,7,12,0.001108399941585958,0,
+scenario-00138,LM,1,LM,converged,20,21,0.008733800030313432,0,
+scenario-00138,BFGS,1,BFGS,converged,51,71,0.008489599917083979,0,
+scenario-00138,initial_selection_only,1,Levenberg-Marquardt,converged,20,21,0.007978900102898479,0,
+scenario-00138,fixed_gn_adaptive,1,Gauss-Newton,converged,7,12,0.0011309999972581863,0,
+scenario-00138,full_hybrid,1,Levenberg-Marquardt,converged,20,21,0.005570800043642521,0,
+scenario-00139,GN,1,GN,rank_deficient,1,3,0.00022249994799494743,0,Jacobian became rank deficient
+scenario-00139,LM,1,LM,max_iterations,100,101,0.030655100010335445,0,Maximum iteration count reached
+scenario-00139,BFGS,1,BFGS,max_iterations,100,153,0.019390500034205616,0,Maximum iteration count reached
+scenario-00139,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.03262640000320971,0,Maximum iteration count reached
+scenario-00139,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,1,3,0.00023559993132948875,0,Jacobian became rank deficient
+scenario-00139,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.027166999992914498,0,Maximum iteration count reached
+scenario-00139,full_hybrid,2,BFGS,max_iterations,100,160,0.02105059998575598,0,Maximum iteration count reached
+scenario-00140,GN,1,GN,rank_deficient,1,3,0.00023440003860741854,0,Jacobian became rank deficient
+scenario-00140,LM,1,LM,max_iterations,100,101,0.027788099949248135,0,Maximum iteration count reached
+scenario-00140,BFGS,1,BFGS,max_iterations,100,156,0.019674900104291737,0,Maximum iteration count reached
+scenario-00140,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028029799927026033,0,Maximum iteration count reached
+scenario-00140,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,1,3,0.00021569989621639252,0,Jacobian became rank deficient
+scenario-00140,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.02601839997805655,0,Maximum iteration count reached
+scenario-00140,full_hybrid,2,BFGS,max_iterations,100,139,0.020515199983492494,0,Maximum iteration count reached
+scenario-00141,GN,1,GN,rank_deficient,0,1,0.00011120003182440996,0,Jacobian rank is 1; four independent state directions are required
+scenario-00141,LM,1,LM,rank_deficient,0,1,8.969998452812433e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00141,BFGS,1,BFGS,rank_deficient,0,1,8.969998452812433e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00142,GN,1,GN,rank_deficient,0,1,8.350005373358727e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00142,LM,1,LM,rank_deficient,0,1,8.589995559304953e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00142,BFGS,1,BFGS,rank_deficient,0,1,7.940002251416445e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00143,GN,1,GN,rank_deficient,0,1,7.27999722585082e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00143,LM,1,LM,rank_deficient,0,1,8.290004916489124e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00143,BFGS,1,BFGS,rank_deficient,0,1,7.16999638825655e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00144,GN,1,GN,converged,5,28,0.001943300012499094,0,
+scenario-00144,LM,1,LM,converged,8,9,0.001893299981020391,4,
+scenario-00144,BFGS,1,BFGS,converged,10,29,0.004392800037749112,0,
+scenario-00144,initial_selection_only,1,Gauss-Newton,converged,5,28,0.001552899950183928,0,
+scenario-00144,fixed_gn_adaptive,1,Gauss-Newton,converged,5,28,0.0012483999598771334,0,
+scenario-00144,full_hybrid,1,Gauss-Newton,converged,5,28,0.0012306999415159225,0,
+scenario-00145,GN,1,GN,converged,2,3,0.00035969994496554136,0,
+scenario-00145,LM,1,LM,converged,4,5,0.0016397000290453434,1,
+scenario-00145,BFGS,1,BFGS,converged,12,16,0.0019582000095397234,0,
+scenario-00145,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003659999929368496,0,
+scenario-00145,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.001378099899739027,0,
+scenario-00145,full_hybrid,1,Gauss-Newton,converged,2,3,0.00045149994548410177,0,
+scenario-00146,GN,1,GN,converged,2,3,0.0004798000445589423,0,
+scenario-00146,LM,1,LM,converged,9,10,0.002147700055502355,5,
+scenario-00146,BFGS,1,BFGS,converged,8,13,0.0014250000240281224,0,
+scenario-00146,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00039059994742274284,0,
+scenario-00146,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0004496000474318862,0,
+scenario-00146,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003837000112980604,0,
+scenario-00147,GN,1,GN,converged,4,28,0.0011354000307619572,0,
+scenario-00147,LM,1,LM,converged,4,5,0.0011246000649407506,0,
+scenario-00147,BFGS,1,BFGS,converged,10,14,0.002922699903137982,0,
+scenario-00147,initial_selection_only,1,Gauss-Newton,converged,4,28,0.001548200030811131,0,
+scenario-00147,fixed_gn_adaptive,1,Gauss-Newton,converged,4,28,0.001193300005979836,0,
+scenario-00147,full_hybrid,1,Gauss-Newton,converged,4,28,0.0011638000141829252,0,
+scenario-00148,GN,1,GN,converged,2,3,0.0007708000484853983,0,
+scenario-00148,LM,1,LM,converged,10,11,0.0034226999850943685,5,
+scenario-00148,BFGS,1,BFGS,converged,13,18,0.004599399981088936,0,
+scenario-00148,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0007035000016912818,0,
+scenario-00148,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0004458000184968114,0,
+scenario-00148,full_hybrid,1,Gauss-Newton,converged,2,3,0.00036720000207424164,0,
+scenario-00149,GN,1,GN,converged,2,3,0.00037319993134588003,0,
+scenario-00149,LM,1,LM,converged,5,6,0.0013541999505832791,0,
+scenario-00149,BFGS,1,BFGS,converged,14,36,0.0031693000346422195,0,
+scenario-00149,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004157000221312046,0,
+scenario-00149,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00039059994742274284,0,
+scenario-00149,full_hybrid,1,Gauss-Newton,converged,2,3,0.0004064000677317381,0,
+scenario-00150,GN,1,GN,converged,5,7,0.0008679000893607736,0,
+scenario-00150,LM,1,LM,converged,17,18,0.006058000028133392,0,
+scenario-00150,BFGS,1,BFGS,converged,47,66,0.008304200018756092,0,
+scenario-00150,initial_selection_only,1,Levenberg-Marquardt,converged,17,18,0.00667030003387481,0,
+scenario-00150,fixed_gn_adaptive,1,Gauss-Newton,converged,5,7,0.001775600016117096,0,
+scenario-00150,full_hybrid,1,Levenberg-Marquardt,converged,17,18,0.009917199960909784,0,
+scenario-00151,GN,1,GN,converged,17,84,0.007287500076927245,0,
+scenario-00151,LM,1,LM,max_iterations,100,101,0.02972099999897182,0,Maximum iteration count reached
+scenario-00151,BFGS,1,BFGS,max_iterations,100,154,0.01816879992838949,0,Maximum iteration count reached
+scenario-00151,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028253500000573695,0,Maximum iteration count reached
+scenario-00151,fixed_gn_adaptive,1,Gauss-Newton,converged,17,84,0.003977200016379356,0,
+scenario-00151,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.028115599998272955,0,Maximum iteration count reached
+scenario-00151,full_hybrid,2,BFGS,max_iterations,100,162,0.01801800006069243,0,Maximum iteration count reached
+scenario-00152,GN,1,GN,rank_deficient,1,6,0.00035340001340955496,0,Jacobian became rank deficient
+scenario-00152,LM,1,LM,max_iterations,100,101,0.029995000106282532,0,Maximum iteration count reached
+scenario-00152,BFGS,1,BFGS,max_iterations,100,157,0.020038899965584278,0,Maximum iteration count reached
+scenario-00152,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028786599985323846,0,Maximum iteration count reached
+scenario-00152,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,1,6,0.0002911000046879053,0,Jacobian became rank deficient
+scenario-00152,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.028584400075487792,0,Maximum iteration count reached
+scenario-00152,full_hybrid,2,BFGS,max_iterations,100,162,0.02462399995420128,0,Maximum iteration count reached
+scenario-00153,GN,1,GN,rank_deficient,0,1,0.00016880000475794077,0,Jacobian rank is 1; four independent state directions are required
+scenario-00153,LM,1,LM,rank_deficient,0,1,0.00029800005722790956,0,Jacobian rank is 1; four independent state directions are required
+scenario-00153,BFGS,1,BFGS,rank_deficient,0,1,0.00010249996557831764,0,Jacobian rank is 1; four independent state directions are required
+scenario-00154,GN,1,GN,rank_deficient,0,1,8.020002860575914e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00154,LM,1,LM,rank_deficient,0,1,8.810008876025677e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00154,BFGS,1,BFGS,rank_deficient,0,1,7.800001185387373e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00155,GN,1,GN,rank_deficient,0,1,7.620011456310749e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00155,LM,1,LM,rank_deficient,0,1,8.740008343011141e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00155,BFGS,1,BFGS,rank_deficient,0,1,7.479998748749495e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00156,GN,1,GN,converged,2,3,0.00043860008008778095,0,
+scenario-00156,LM,1,LM,converged,5,6,0.0013284999877214432,1,
+scenario-00156,BFGS,1,BFGS,converged,14,45,0.005377899971790612,0,
+scenario-00156,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006626000395044684,0,
+scenario-00156,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0003974999999627471,0,
+scenario-00156,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039229996036738157,0,
+scenario-00157,GN,1,GN,converged,2,3,0.00040900008752942085,0,
+scenario-00157,LM,1,LM,converged,4,5,0.0012257000198587775,0,
+scenario-00157,BFGS,1,BFGS,converged,11,16,0.0018431999487802386,0,
+scenario-00157,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003879999276250601,0,
+scenario-00157,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00036399997770786285,0,
+scenario-00157,full_hybrid,1,Gauss-Newton,converged,2,3,0.00037189992144703865,0,
+scenario-00158,GN,1,GN,converged,2,3,0.0003701000241562724,0,
+scenario-00158,LM,1,LM,converged,4,5,0.0013388999504968524,0,
+scenario-00158,BFGS,1,BFGS,converged,10,26,0.004134499933570623,0,
+scenario-00158,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0004102999810129404,0,
+scenario-00158,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038430001586675644,0,
+scenario-00158,full_hybrid,1,Gauss-Newton,converged,2,3,0.00040360004641115665,0,
+scenario-00159,GN,1,GN,converged,2,3,0.00037589995190501213,0,
+scenario-00159,LM,1,LM,converged,13,14,0.002857699990272522,7,
+scenario-00159,BFGS,1,BFGS,converged,17,31,0.0028948000399395823,0,
+scenario-00159,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0005833000177517533,0,
+scenario-00159,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0007016999879851937,0,
+scenario-00159,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006972999544814229,0,
+scenario-00160,GN,1,GN,converged,2,3,0.0004453998990356922,0,
+scenario-00160,LM,1,LM,converged,4,5,0.0011883999686688185,0,
+scenario-00160,BFGS,1,BFGS,converged,15,20,0.0024194999132305384,0,
+scenario-00160,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00037260004319250584,0,
+scenario-00160,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00038620003033429384,0,
+scenario-00160,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003727000439539552,0,
+scenario-00161,GN,1,GN,converged,2,3,0.0003800999838858843,0,
+scenario-00161,LM,1,LM,converged,4,5,0.001120300032198429,0,
+scenario-00161,BFGS,1,BFGS,converged,8,12,0.0033946000039577484,0,
+scenario-00161,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0008052999619394541,0,
+scenario-00161,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006491999374702573,0,
+scenario-00161,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003825000021606684,0,
+scenario-00162,GN,1,GN,converged,3,4,0.0005601999582722783,0,
+scenario-00162,LM,1,LM,converged,18,19,0.004373000003397465,0,
+scenario-00162,BFGS,1,BFGS,converged,49,78,0.011253500008024275,0,
+scenario-00162,initial_selection_only,1,Levenberg-Marquardt,converged,18,19,0.004374800017103553,0,
+scenario-00162,fixed_gn_adaptive,1,Gauss-Newton,converged,3,4,0.0005290999542921782,0,
+scenario-00162,full_hybrid,1,Levenberg-Marquardt,converged,18,19,0.007105600088834763,0,
+scenario-00163,GN,1,GN,rank_deficient,35,472,0.017683499958366156,0,Jacobian became rank deficient
+scenario-00163,LM,1,LM,max_iterations,100,101,0.029043099959380925,0,Maximum iteration count reached
+scenario-00163,BFGS,1,BFGS,max_iterations,100,154,0.01990850002039224,0,Maximum iteration count reached
+scenario-00163,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.028894499992020428,0,Maximum iteration count reached
+scenario-00163,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,35,472,0.016377300024032593,0,Jacobian became rank deficient
+scenario-00163,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.031954300007782876,0,Maximum iteration count reached
+scenario-00163,full_hybrid,2,BFGS,max_iterations,100,150,0.018533800030127168,0,Maximum iteration count reached
+scenario-00164,GN,1,GN,rank_deficient,91,1558,0.052003900054842234,0,Jacobian became rank deficient
+scenario-00164,LM,1,LM,max_iterations,100,101,0.02976259996648878,0,Maximum iteration count reached
+scenario-00164,BFGS,1,BFGS,max_iterations,100,155,0.018525900086387992,0,Maximum iteration count reached
+scenario-00164,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.029742100043222308,0,Maximum iteration count reached
+scenario-00164,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,91,1558,0.06491160008590668,0,Jacobian became rank deficient
+scenario-00164,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.03540089994203299,0,Maximum iteration count reached
+scenario-00164,full_hybrid,2,BFGS,max_iterations,100,154,0.021642500068992376,0,Maximum iteration count reached
+scenario-00165,GN,1,GN,rank_deficient,0,1,9.819993283599615e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00165,LM,1,LM,rank_deficient,0,1,9.079999290406704e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00165,BFGS,1,BFGS,rank_deficient,0,1,7.569999434053898e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00166,GN,1,GN,rank_deficient,0,1,7.639999967068434e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00166,LM,1,LM,rank_deficient,0,1,9.240000508725643e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00166,BFGS,1,BFGS,rank_deficient,0,1,7.539999205619097e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00167,GN,1,GN,rank_deficient,0,1,7.369997911155224e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00167,LM,1,LM,rank_deficient,0,1,8.279993198812008e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00167,BFGS,1,BFGS,rank_deficient,0,1,7.280008867383003e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00168,GN,1,GN,converged,2,3,0.0004067999543622136,0,
+scenario-00168,LM,1,LM,converged,9,10,0.0050490000285208225,5,
+scenario-00168,BFGS,1,BFGS,converged,9,15,0.0017736000008881092,0,
+scenario-00168,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0008823999669402838,0,
+scenario-00168,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00040559994522482157,0,
+scenario-00168,full_hybrid,1,Gauss-Newton,converged,2,3,0.00039709999691694975,0,
+scenario-00169,GN,1,GN,converged,2,3,0.00036559998989105225,0,
+scenario-00169,LM,1,LM,converged,3,4,0.0009018999990075827,0,
+scenario-00169,BFGS,1,BFGS,converged,10,14,0.001639499911107123,0,
+scenario-00169,initial_selection_only,1,Gauss-Newton,converged,2,3,0.00038400001358240843,0,
+scenario-00169,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00039520009886473417,0,
+scenario-00169,full_hybrid,1,Gauss-Newton,converged,2,3,0.001565299928188324,0,
+scenario-00170,GN,1,GN,converged,2,3,0.0010516000911593437,0,
+scenario-00170,LM,1,LM,converged,3,4,0.0012934999540448189,0,
+scenario-00170,BFGS,1,BFGS,converged,14,23,0.004231899976730347,0,
+scenario-00170,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0006568999961018562,0,
+scenario-00170,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006723999977111816,0,
+scenario-00170,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006701999809592962,0,
+scenario-00171,GN,1,GN,converged,3,6,0.0009324999991804361,0,
+scenario-00171,LM,1,LM,converged,6,7,0.003739000065252185,0,
+scenario-00171,BFGS,1,BFGS,converged,13,17,0.0022980000358074903,0,
+scenario-00171,initial_selection_only,1,Gauss-Newton,converged,3,6,0.0008860999951139092,0,
+scenario-00171,fixed_gn_adaptive,1,Gauss-Newton,converged,3,6,0.0005909999599680305,0,
+scenario-00171,full_hybrid,1,Gauss-Newton,converged,3,6,0.0005506000015884638,0,
+scenario-00172,GN,1,GN,converged,2,3,0.0006514000706374645,0,
+scenario-00172,LM,1,LM,converged,11,12,0.004511100007221103,7,
+scenario-00172,BFGS,1,BFGS,converged,11,40,0.004860999993979931,0,
+scenario-00172,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0007834000280126929,0,
+scenario-00172,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0004398999735713005,0,
+scenario-00172,full_hybrid,1,Gauss-Newton,converged,2,3,0.00038949993904680014,0,
+scenario-00173,GN,1,GN,converged,2,3,0.0003765999572351575,0,
+scenario-00173,LM,1,LM,converged,4,5,0.0011678000446408987,0,
+scenario-00173,BFGS,1,BFGS,converged,10,15,0.0016886999364942312,0,
+scenario-00173,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003909000661224127,0,
+scenario-00173,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.00110809993930161,0,
+scenario-00173,full_hybrid,1,Gauss-Newton,converged,2,3,0.0007342000026255846,0,
+scenario-00174,GN,1,GN,converged,5,8,0.0014354001032188535,0,
+scenario-00174,LM,1,LM,converged,26,27,0.006243000039830804,0,
+scenario-00174,BFGS,1,BFGS,converged,84,146,0.01746070000808686,0,
+scenario-00174,initial_selection_only,1,Levenberg-Marquardt,converged,26,27,0.00974139990285039,0,
+scenario-00174,fixed_gn_adaptive,1,Gauss-Newton,converged,5,8,0.0008351999567821622,0,
+scenario-00174,full_hybrid,1,Levenberg-Marquardt,converged,26,27,0.008934900048188865,0,
+scenario-00175,GN,1,GN,converged,17,75,0.0037721999688073993,0,
+scenario-00175,LM,1,LM,max_iterations,100,101,0.029383599990978837,0,Maximum iteration count reached
+scenario-00175,BFGS,1,BFGS,max_iterations,100,151,0.01848289999179542,0,Maximum iteration count reached
+scenario-00175,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.030218100058846176,0,Maximum iteration count reached
+scenario-00175,fixed_gn_adaptive,1,Gauss-Newton,converged,17,75,0.0038724999176338315,0,
+scenario-00175,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.030146699980832636,0,Maximum iteration count reached
+scenario-00175,full_hybrid,2,BFGS,max_iterations,100,159,0.019225899945013225,0,Maximum iteration count reached
+scenario-00176,GN,1,GN,converged,52,402,0.019206900033168495,0,
+scenario-00176,LM,1,LM,max_iterations,100,101,0.027416100027039647,0,Maximum iteration count reached
+scenario-00176,BFGS,1,BFGS,max_iterations,100,149,0.01816149998921901,0,Maximum iteration count reached
+scenario-00176,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.02749280002899468,0,Maximum iteration count reached
+scenario-00176,fixed_gn_adaptive,1,Gauss-Newton,converged,52,402,0.01786479994188994,0,
+scenario-00176,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.03046320006251335,0,Maximum iteration count reached
+scenario-00176,full_hybrid,2,BFGS,max_iterations,100,148,0.020530099980533123,0,Maximum iteration count reached
+scenario-00177,GN,1,GN,rank_deficient,0,1,8.549995254725218e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00177,LM,1,LM,rank_deficient,0,1,9.590003173798323e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00177,BFGS,1,BFGS,rank_deficient,0,1,9.129999671131372e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00178,GN,1,GN,rank_deficient,0,1,7.349997758865356e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00178,LM,1,LM,rank_deficient,0,1,8.530006743967533e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00178,BFGS,1,BFGS,rank_deficient,0,1,7.24999699741602e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00179,GN,1,GN,rank_deficient,0,1,7.529999129474163e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00179,LM,1,LM,rank_deficient,0,1,8.44000605866313e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00179,BFGS,1,BFGS,rank_deficient,0,1,7.309997454285622e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00180,GN,1,GN,converged,2,3,0.00040769996121525764,0,
+scenario-00180,LM,1,LM,converged,5,6,0.001325499964877963,1,
+scenario-00180,BFGS,1,BFGS,converged,14,29,0.00433809997048229,0,
+scenario-00180,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0007165999850258231,0,
+scenario-00180,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006619000341743231,0,
+scenario-00180,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006507999496534467,0,
+scenario-00181,GN,1,GN,converged,2,3,0.0007388999219983816,0,
+scenario-00181,LM,1,LM,numerical_failure,48,49,0.011228100047446787,45,LM damping and scaling exceed floating-point range
+scenario-00181,BFGS,1,BFGS,converged,13,21,0.00233039993327111,0,
+scenario-00181,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0003989000106230378,0,
+scenario-00181,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.000367300002835691,0,
+scenario-00181,full_hybrid,1,Gauss-Newton,converged,2,3,0.0003711000317707658,0,
+scenario-00182,GN,1,GN,converged,2,3,0.00038780004251748323,0,
+scenario-00182,LM,1,LM,converged,5,6,0.0013021000195294619,1,
+scenario-00182,BFGS,1,BFGS,converged,11,15,0.006000699941068888,0,
+scenario-00182,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0007105999393388629,0,
+scenario-00182,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0019194999476894736,0,
+scenario-00182,full_hybrid,1,Gauss-Newton,converged,2,3,0.0007164999842643738,0,
+scenario-00183,GN,1,GN,converged,2,3,0.0007149000884965062,0,
+scenario-00183,LM,1,LM,converged,6,7,0.0037542999489232898,0,
+scenario-00183,BFGS,1,BFGS,converged,15,19,0.0067217000760138035,0,
+scenario-00183,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0007257999386638403,0,
+scenario-00183,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006259999936446548,0,
+scenario-00183,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006615000311285257,0,
+scenario-00184,GN,1,GN,converged,2,3,0.0007794999983161688,0,
+scenario-00184,LM,1,LM,converged,4,5,0.001865500002168119,0,
+scenario-00184,BFGS,1,BFGS,converged,8,19,0.004938500002026558,0,
+scenario-00184,initial_selection_only,1,Gauss-Newton,converged,2,3,0.000781899900175631,0,
+scenario-00184,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0006729000015184283,0,
+scenario-00184,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006483000470325351,0,
+scenario-00185,GN,1,GN,converged,2,3,0.0007571999449282885,0,
+scenario-00185,LM,1,LM,converged,4,5,0.00186260009650141,0,
+scenario-00185,BFGS,1,BFGS,converged,8,14,0.002460499992594123,0,
+scenario-00185,initial_selection_only,1,Gauss-Newton,converged,2,3,0.0008205999620258808,0,
+scenario-00185,fixed_gn_adaptive,1,Gauss-Newton,converged,2,3,0.0008174999384209514,0,
+scenario-00185,full_hybrid,1,Gauss-Newton,converged,2,3,0.0006927999202162027,0,
+scenario-00186,GN,1,GN,converged,6,7,0.0017869999865069985,0,
+scenario-00186,LM,1,LM,converged,20,21,0.008684100001119077,0,
+scenario-00186,BFGS,1,BFGS,converged,53,66,0.015379199991002679,0,
+scenario-00186,initial_selection_only,1,Levenberg-Marquardt,converged,20,21,0.009788000024855137,0,
+scenario-00186,fixed_gn_adaptive,1,Gauss-Newton,converged,6,7,0.0015316000208258629,0,
+scenario-00186,full_hybrid,1,Levenberg-Marquardt,converged,20,21,0.009732799953781068,0,
+scenario-00187,GN,1,GN,rank_deficient,88,1120,0.06346870004199445,0,Jacobian became rank deficient
+scenario-00187,LM,1,LM,max_iterations,100,101,0.050164599902927876,1,Maximum iteration count reached
+scenario-00187,BFGS,1,BFGS,max_iterations,100,155,0.021059699938632548,0,Maximum iteration count reached
+scenario-00187,initial_selection_only,1,Levenberg-Marquardt,max_iterations,100,101,0.04180790006648749,1,Maximum iteration count reached
+scenario-00187,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,88,1120,0.05461340001784265,0,Jacobian became rank deficient
+scenario-00187,full_hybrid,1,Levenberg-Marquardt,max_iterations,100,101,0.036808200064115226,1,Maximum iteration count reached
+scenario-00187,full_hybrid,2,BFGS,max_iterations,100,148,0.02196169993840158,0,Maximum iteration count reached
+scenario-00188,GN,1,GN,rank_deficient,1,2,0.00021249998826533556,0,Jacobian became rank deficient
+scenario-00188,LM,1,LM,converged,97,98,0.03176559996791184,0,
+scenario-00188,BFGS,1,BFGS,max_iterations,100,138,0.02099720004480332,0,Maximum iteration count reached
+scenario-00188,initial_selection_only,1,Levenberg-Marquardt,converged,97,98,0.024816200020723045,0,
+scenario-00188,fixed_gn_adaptive,1,Gauss-Newton,rank_deficient,1,2,0.00046559993643313646,0,Jacobian became rank deficient
+scenario-00188,full_hybrid,1,Levenberg-Marquardt,converged,97,98,0.029616199899464846,0,
+scenario-00189,GN,1,GN,rank_deficient,0,1,0.0004488000413402915,0,Jacobian rank is 1; four independent state directions are required
+scenario-00189,LM,1,LM,rank_deficient,0,1,0.00017819995991885662,0,Jacobian rank is 1; four independent state directions are required
+scenario-00189,BFGS,1,BFGS,rank_deficient,0,1,0.00013589998707175255,0,Jacobian rank is 1; four independent state directions are required
+scenario-00190,GN,1,GN,rank_deficient,0,1,0.00010810000821948051,0,Jacobian rank is 1; four independent state directions are required
+scenario-00190,LM,1,LM,rank_deficient,0,1,9.390001650899649e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00190,BFGS,1,BFGS,rank_deficient,0,1,7.87999015301466e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00191,GN,1,GN,rank_deficient,0,1,7.559999357908964e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00191,LM,1,LM,rank_deficient,0,1,8.839997462928295e-05,0,Jacobian rank is 1; four independent state directions are required
+scenario-00191,BFGS,1,BFGS,rank_deficient,0,1,0.00013409997336566448,0,Jacobian rank is 1; four independent state directions are required
